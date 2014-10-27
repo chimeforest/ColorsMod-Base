@@ -1,0 +1,25 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Dark Yellow Basic Cloth",
+   "description" : "A very unique shade of yellow",
+   "flavor"      : "...except it's so plain",
+   "portrait"    : "/colors/entities/cloth/cloth_bolt/cloth_bolt_dkyellow.png",
+
+   "ingredients": [
+      {
+         "material" : "darkyellow dye",
+         "count" : 1
+      },
+	  {
+         "material" : "white cloth resource",
+         "count" : 1
+      }
+   ],
+  "produces": [
+      {
+         "item":"colors:cloth_bolt_dkyellow"
+      }
+  ]
+}

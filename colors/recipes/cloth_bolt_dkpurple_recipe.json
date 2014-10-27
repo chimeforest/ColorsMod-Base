@@ -1,0 +1,25 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Dark Purple Basic Cloth",
+   "description" : "It could almost be royal",
+   "flavor"      : "...except it's so plain",
+   "portrait"    : "/colors/entities/cloth/cloth_bolt/cloth_bolt_dkpurple.png",
+
+   "ingredients": [
+      {
+         "material" : "darkpurple dye",
+         "count" : 1
+      },
+	  {
+         "material" : "white cloth resource",
+         "count" : 1
+      }
+   ],
+  "produces": [
+      {
+         "item":"colors:cloth_bolt_dkpurple"
+      }
+  ]
+}

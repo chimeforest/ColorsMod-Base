@@ -1,0 +1,21 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Dark Yellow Dye",
+   "description" : "A Mysterious yellow Liquid",
+   "flavor"      : "Don't stick your hand in!",
+   "portrait"    : "/colors/entities/crafting_materials/dye/dye_dkyellow.png",
+
+   "ingredients": [
+      {
+         "material" : "darkyellow colorsource",
+         "count" : 1
+      }
+   ],
+  "produces": [
+      {
+         "item":"colors:dye_dkyellow"
+      }
+  ]
+}

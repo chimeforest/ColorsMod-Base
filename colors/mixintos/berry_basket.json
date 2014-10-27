@@ -1,0 +1,7 @@
+{
+   "components": {
+      "stonehearth:material" : {
+         "tags" :  "resource fruit food_container berry colorsource darkpurple"
+      }
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "material" : "white cloth resource",
+         "count" : 1
+      }
+  ]
+}

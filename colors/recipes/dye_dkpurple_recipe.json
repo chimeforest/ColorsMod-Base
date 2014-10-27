@@ -1,0 +1,21 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Dark Purple Dye",
+   "description" : "A Mysterious Purple Liquid",
+   "flavor"      : "Don't stick your hand in!",
+   "portrait"    : "/colors/entities/cloth/dye/dye_dkpurple.png",
+
+   "ingredients": [
+      {
+         "material" : "darkpurple colorsource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors:dye_dkpurple"
+      }
+  ]
+}

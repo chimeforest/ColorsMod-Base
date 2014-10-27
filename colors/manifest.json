@@ -1,0 +1,26 @@
+{
+	"info": {
+		"name" : "colors"
+	},
+	"aliases": {
+		"dye_dkpurple": "file(entities/cloth/dye/dye_dkpurple.json)",
+		"dye_dkyellow": "file(entities/cloth/dye/dye_dkyellow.json)",
+		
+		"cloth_bolt_dkpurple": "file(entities/cloth/cloth_bolt/cloth_bolt_dkpurple.json)",
+		"cloth_bolt_dkyellow": "file(entities/cloth/cloth_bolt/cloth_bolt_dkyellow.json)",
+		
+		"comfy_bed_dkpurple" : "file(entities/furniture/comfy_bed/comfy_bed_dkpurple.json)",
+		"comfy_bed_dkpurple_proxy" : "file(entities/furniture/comfy_bed/comfy_bed_dkpurple_iconic.json)",
+		
+		"comfy_bed_dkyellow" : "file(entities/furniture/comfy_bed/comfy_bed_dkyellow.json)",
+		"comfy_bed_dkyellow_proxy" : "file(entities/furniture/comfy_bed/comfy_bed_dkyellow_iconic.json)"
+	},
+	"mixintos": {
+		"/stonehearth/professions/carpenter/recipes/recipes.json": ["file(mixintos/carpenter_recipes.json)"],
+		"/stonehearth/professions/weaver/recipes/recipes.json": ["file(mixintos/weaver_recipes.json)"],
+		
+		"/stonehearth/professions/carpenter/recipes/comfy_bed_recipe.json": ["file(mixintos/comfy_bed_recipe.json)"],
+		"/stonehearth/entities/cloth/cloth_bolt/cloth_bolt.json": ["file(mixintos/cloth_bolt.json)"],
+		"/stonehearth/entities/plants/berry_basket/berry_basket.json": ["file(mixintos/berry_basket.json)"]
+	}
+}

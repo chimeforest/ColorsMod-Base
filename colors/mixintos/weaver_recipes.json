@@ -1,0 +1,18 @@
+{
+	"craftable_recipes" : {
+		"Colors mod" : {
+			"dkpurpledye" : {
+				"uri" : "file(/recipes/dye_dkpurple_recipe.json)"
+			},
+			"dkyellowdye" : {
+				"uri" : "file(/recipes/dye_dkyellow_recipe.json)"
+			},
+			"dkpurplecloth" : {
+				"uri" : "file(/recipes/cloth_bolt_dkpurple_recipe.json)"
+			},
+			"dkyellowcloth" : {
+				"uri" : "file(/recipes/cloth_bolt_dkyellow_recipe.json)"
+			}
+		}
+   }
+}

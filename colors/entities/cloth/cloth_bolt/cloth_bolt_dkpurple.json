@@ -1,0 +1,27 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "stacks": 10
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cloth_bolt_dkpurple.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Dark Purple Bolt of Cloth",
+         "description": "Shimmery.",
+         "icon" : "file(cloth_bolt_dkpurple.png)"
+      },
+      "stonehearth:material" : {
+         "tags" :  "cloth resource cloth_asset darkpurple"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      }
+   }
+}
