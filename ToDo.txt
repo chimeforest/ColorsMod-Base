@@ -1,0 +1,28 @@
+TODO:
+	put beds into own folders?
+	
+	Update bed icons
+	
+	Add more Colors: ROYGBP
+	switch dkcolors to reg
+
+	change "white" to "undyed"?
+	add black
+
+	Add decorations
+		curtians
+		flags
+		cloth rugs
+	
+	
+MODs
+	Colors-Basic	ROYGBP bed and decorationsm simple recipes
+	Colors-Advanced	ROYGBP w/li,med,and dark var. complex recipes
+	Colors-Rugs	A fur rig for each animal
+	Colors-Roofs	Colored Roofs
+	Colors-Clothes	Colored uniforms
+	Colors-Lights	Colored lights/torches/etc
+	Colors-Tapestries	Colored wall hangings
+		Tapestry packs	Aditional Wall Hangings
+
+	Colors-Complete Adv+Rugs+roofs+clothes+lights

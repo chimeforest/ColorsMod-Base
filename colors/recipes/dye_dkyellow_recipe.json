@@ -5,7 +5,7 @@
    "recipe_name" : "Dark Yellow Dye",
    "description" : "A Mysterious yellow Liquid",
    "flavor"      : "Don't stick your hand in!",
-   "portrait"    : "/colors/entities/crafting_materials/dye/dye_dkyellow.png",
+   "portrait"    : "/colors/entities/cloth/dye/dye_dkyellow.png",
 
    "ingredients": [
       {

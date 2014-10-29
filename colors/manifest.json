@@ -2,7 +2,7 @@
 	"info": {
 		"name" : "colors"
 	},
-	"aliases": {
+	"aliases"  : {
 		"dye_dkpurple": "file(entities/cloth/dye/dye_dkpurple.json)",
 		"dye_dkyellow": "file(entities/cloth/dye/dye_dkyellow.json)",
 		
@@ -15,12 +15,14 @@
 		"comfy_bed_dkyellow" : "file(entities/furniture/comfy_bed/comfy_bed_dkyellow.json)",
 		"comfy_bed_dkyellow_proxy" : "file(entities/furniture/comfy_bed/comfy_bed_dkyellow_iconic.json)"
 	},
-	"mixintos": {
+	"mixintos" : {
 		"/stonehearth/professions/carpenter/recipes/recipes.json": ["file(mixintos/carpenter_recipes.json)"],
 		"/stonehearth/professions/weaver/recipes/recipes.json": ["file(mixintos/weaver_recipes.json)"],
 		
-		"/stonehearth/professions/carpenter/recipes/comfy_bed_recipe.json": ["file(mixintos/comfy_bed_recipe.json)"],
 		"/stonehearth/entities/cloth/cloth_bolt/cloth_bolt.json": ["file(mixintos/cloth_bolt.json)"],
 		"/stonehearth/entities/plants/berry_basket/berry_basket.json": ["file(mixintos/berry_basket.json)"]
+	},
+	"overrides" : {
+		"stonehearth/professions/carpenter/recipes/comfy_bed_recipe.json": "file(overrides/comfy_bed_recipe.json)"
 	}
 }
