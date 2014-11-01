@@ -7,7 +7,7 @@ TODO:
 	switch dkcolors to reg
 
 	change "white" to "undyed"?
-	add black
+	add black, indigo
 
 	Add decorations
 		curtians
