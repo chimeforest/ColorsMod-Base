@@ -5,7 +5,7 @@
    "recipe_name" : "Comfy Bed",
    "description" : "Eight hours will leave you as refreshed as the day you were born.",
    "flavor"      : "Nobody ever wants to get out. It makes emergency evacuations awkward.",
-   "portrait"    : "/stonehearth/entities/furniture/comfy_bed/comfy_bed.png",
+   "portrait"    : "/colors/entities/furniture/comfy_bed/comfy_bed_undyed/comfy_bed_undyed.png",
 
    "ingredients": [
       {
@@ -13,13 +13,13 @@
          "count" : 1
       },
       {
-         "material" : "white cloth resource",
+         "material" : "undyed cloth resource",
          "count" : 1
       }
   ],
   "produces": [
       {
-         "item":"stonehearth:comfy_bed"
+         "item":"colors:comfy_bed_undyed"
       }
   ]
 }

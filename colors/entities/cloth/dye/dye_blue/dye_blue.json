@@ -1,0 +1,27 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "stacks": 10
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(dye_blue.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Blue Dye",
+         "description": "A Bucket of Blue Dye.",
+         "icon" : "file(dye_blue.png)"
+      },
+      "stonehearth:material" : {
+         "tags" :  "blue dye resource"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      }
+   }
+}

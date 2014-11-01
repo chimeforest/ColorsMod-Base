@@ -1,7 +1,7 @@
 {
    "components": {
       "stonehearth:material" : {
-         "tags" :  "cloth resource cloth_asset white"
+         "tags" :  "cloth resource cloth_asset undyed"
       }
    }
 }

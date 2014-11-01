@@ -1,6 +1,9 @@
 {
 	"craftable_recipes" : {
 		"Colors mod" : {
+			"bluedye" : {
+				"uri" : "file(/recipes/dye_blue_recipe.json)"
+			},
 			"dkpurpledye" : {
 				"uri" : "file(/recipes/dye_dkpurple_recipe.json)"
 			},
