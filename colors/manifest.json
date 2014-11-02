@@ -3,31 +3,25 @@
 		"name" : "colors"
 	},
 	"aliases"  : {
+		"dye_red": "file(entities/cloth/dye/dye_red)",
+		"dye_orange": "file(entities/cloth/dye/dye_orange)",
+		"dye_yellow": "file(entities/cloth/dye/dye_yellow)",
+		"dye_green": "file(entities/cloth/dye/dye_green)",
 		"dye_blue": "file(entities/cloth/dye/dye_blue)",
+		"dye_purple": "file(entities/cloth/dye/dye_purple)",
 		
-		"comfy_bed_undyed" : "file(entities/furniture/comfy_bed/comfy_bed_undyed)",
-		
-	
-		"dye_dkpurple": "file(entities/cloth/dye/dye_dkpurple.json)",
-		"dye_dkyellow": "file(entities/cloth/dye/dye_dkyellow.json)",
-		
-		"cloth_bolt_dkpurple": "file(entities/cloth/cloth_bolt/cloth_bolt_dkpurple.json)",
-		"cloth_bolt_dkyellow": "file(entities/cloth/cloth_bolt/cloth_bolt_dkyellow.json)",
-		
-		"comfy_bed_dkpurple" : "file(entities/furniture/comfy_bed/comfy_bed_dkpurple.json)",
-		"comfy_bed_dkpurple_proxy" : "file(entities/furniture/comfy_bed/comfy_bed_dkpurple_iconic.json)",
-		
-		"comfy_bed_dkyellow" : "file(entities/furniture/comfy_bed/comfy_bed_dkyellow.json)",
-		"comfy_bed_dkyellow_proxy" : "file(entities/furniture/comfy_bed/comfy_bed_dkyellow_iconic.json)"
+		"comfy_bed_undyed" : "file(entities/furniture/comfy_bed/comfy_bed_undyed)"
 	},
 	"mixintos" : {
-		"/stonehearth/professions/carpenter/recipes/recipes.json": ["file(mixintos/carpenter_recipes.json)"],
 		"/stonehearth/professions/weaver/recipes/recipes.json": ["file(mixintos/weaver_recipes.json)"],
 		
 		"/stonehearth/entities/cloth/cloth_bolt/cloth_bolt.json": ["file(mixintos/cloth_bolt.json)"],
-		"/stonehearth/entities/plants/berry_basket/berry_basket.json": ["file(mixintos/berry_basket.json)"],
 		
-		"/stonehearth/entities/plants/frostsnap/frostsnap.json": ["file(mixintos/frostsnap.json)"]
+		"/stonehearth/entities/plants/brightbell/brightbell.json": ["file(mixintos/colorsources/brightbell.json)"],
+		"/stonehearth/entities/plants/pumpkin/pumpkin_harvest/pumpkin_harvest.json": ["file(mixintos/colorsources/pumpkin.json)"],
+		"/stonehearth/entities/plants/corn/corn_basket/corn_basket.json": ["file(mixintos/colorsources/corn.json)"],
+		"/stonehearth/entities/plants/frostsnap/frostsnap.json": ["file(mixintos/colorsources/frostsnap.json)"],
+		"/stonehearth/entities/plants/berry_basket/berry_basket.json": ["file(mixintos/colorsources/berry_basket.json)"]
 	},
 	"overrides" : {
 		"stonehearth/professions/carpenter/recipes/comfy_bed_recipe.json": "file(overrides/comfy_bed_recipe.json)"

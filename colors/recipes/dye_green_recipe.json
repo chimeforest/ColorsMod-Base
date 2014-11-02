@@ -1,0 +1,21 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Green Dye",
+   "description" : "A Mysterious Green Liquid",
+   "flavor"      : "Don't stick your hand in!",
+   "portrait"    : "/colors/entities/cloth/dye/dye_green/dye_green.png",
+
+   "ingredients": [
+      {
+         "material" : "green colorsource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors:dye_green"
+      }
+  ]
+}

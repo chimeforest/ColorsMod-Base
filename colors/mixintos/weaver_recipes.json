@@ -1,21 +1,12 @@
 {
 	"craftable_recipes" : {
-		"Colors mod" : {
-			"bluedye" : {
-				"uri" : "file(/recipes/dye_blue_recipe.json)"
-			},
-			"dkpurpledye" : {
-				"uri" : "file(/recipes/dye_dkpurple_recipe.json)"
-			},
-			"dkyellowdye" : {
-				"uri" : "file(/recipes/dye_dkyellow_recipe.json)"
-			},
-			"dkpurplecloth" : {
-				"uri" : "file(/recipes/cloth_bolt_dkpurple_recipe.json)"
-			},
-			"dkyellowcloth" : {
-				"uri" : "file(/recipes/cloth_bolt_dkyellow_recipe.json)"
-			}
+		"Dyes" : {
+			"reddye" : {"uri" : "file(/recipes/dye_red_recipe.json)"},
+			"orangedye" : {"uri" : "file(/recipes/dye_orange_recipe.json)"},
+			"yellowdye" : {"uri" : "file(/recipes/dye_yellow_recipe.json)"},
+			"greendye" : {"uri" : "file(/recipes/dye_green_recipe.json)"},
+			"bluedye" : {"uri" : "file(/recipes/dye_blue_recipe.json)"},
+			"purpledye" : {"uri" : "file(/recipes/dye_purple_recipe.json)"}
 		}
    }
 }

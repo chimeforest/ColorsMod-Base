@@ -8,17 +8,17 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(dye_dkpurple.qb)"
+               "file(dye_red.qb)"
             ]
          }
       },
       "unit_info": {
-         "name": "Dark Purple Dye",
-         "description": "A Mysterious Bucket of Dark Purple.",
-         "icon" : "file(dye_dkpurple.png)"
+         "name": "Red Dye",
+         "description": "A Bucket of Red Dye.",
+         "icon" : "file(dye_red.png)"
       },
       "stonehearth:material" : {
-         "tags" :  "darkpurple dye resource"
+         "tags" :  "red dye resource"
       },
       "mob" : {
          "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }

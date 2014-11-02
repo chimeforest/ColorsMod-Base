@@ -8,17 +8,17 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(dye_dkyellow.qb)"
+               "file(dye_green.qb)"
             ]
          }
       },
       "unit_info": {
-         "name": "Dark Yellow Dye",
-         "description": "A Mysterious Bucket of Dark Yellow.",
-         "icon" : "file(dye_dkyellow.png)"
+         "name": "Green Dye",
+         "description": "A Bucket of Green Dye.",
+         "icon" : "file(dye_green.png)"
       },
       "stonehearth:material" : {
-         "tags" :  "darkyellow dye resource"
+         "tags" :  "green dye resource"
       },
       "mob" : {
          "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }

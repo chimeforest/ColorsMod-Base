@@ -1,0 +1,27 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "stacks": 10
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(dye_yellow.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Yellow Dye",
+         "description": "A Bucket of Yellow Dye.",
+         "icon" : "file(dye_yellow.png)"
+      },
+      "stonehearth:material" : {
+         "tags" :  "yellow dye resource"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      }
+   }
+}
