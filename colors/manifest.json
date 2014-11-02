@@ -10,10 +10,33 @@
 		"dye_blue": "file(entities/cloth/dye/dye_blue)",
 		"dye_purple": "file(entities/cloth/dye/dye_purple)",
 		
-		"comfy_bed_undyed" : "file(entities/furniture/comfy_bed/comfy_bed_undyed)"
+		"cloth_bolt_red": "file(entities/cloth/cloth_bolt/cloth_bolt_red)",
+		"cloth_bolt_orange": "file(entities/cloth/cloth_bolt/cloth_bolt_orange)",
+		"cloth_bolt_yellow": "file(entities/cloth/cloth_bolt/cloth_bolt_yellow)",
+		"cloth_bolt_green": "file(entities/cloth/cloth_bolt/cloth_bolt_green)",
+		"cloth_bolt_blue": "file(entities/cloth/cloth_bolt/cloth_bolt_blue)",
+		"cloth_bolt_purple": "file(entities/cloth/cloth_bolt/cloth_bolt_purple)",
+		
+		"comfy_bed_red" : "file(entities/furniture/comfy_bed/comfy_bed_red)",
+		"comfy_bed_orange" : "file(entities/furniture/comfy_bed/comfy_bed_orange)",
+		"comfy_bed_yellow" : "file(entities/furniture/comfy_bed/comfy_bed_yellow)",
+		"comfy_bed_green" : "file(entities/furniture/comfy_bed/comfy_bed_green)",
+		"comfy_bed_blue" : "file(entities/furniture/comfy_bed/comfy_bed_blue)",
+		"comfy_bed_purple" : "file(entities/furniture/comfy_bed/comfy_bed_purple)",
+		"comfy_bed_undyed" : "file(entities/furniture/comfy_bed/comfy_bed_undyed)",
+		
+		"comfy_chair_red" : "file(entities/furniture/comfy_chair/comfy_chair_red)",
+		"comfy_chair_orange" : "file(entities/furniture/comfy_chair/comfy_chair_orange)",
+		"comfy_chair_yellow" : "file(entities/furniture/comfy_chair/comfy_chair_yellow)",
+		"comfy_chair_green" : "file(entities/furniture/comfy_chair/comfy_chair_green)",
+		"comfy_chair_blue" : "file(entities/furniture/comfy_chair/comfy_chair_blue)",
+		"comfy_chair_purple" : "file(entities/furniture/comfy_chair/comfy_chair_purple)",
+		"comfy_chair_undyed" : "file(entities/furniture/comfy_chair/comfy_chair_undyed)"
+		
 	},
 	"mixintos" : {
 		"/stonehearth/professions/weaver/recipes/recipes.json": ["file(mixintos/weaver_recipes.json)"],
+		"/stonehearth/professions/carpenter/recipes/recipes.json": ["file(mixintos/carpenter_recipes.json)"],
 		
 		"/stonehearth/entities/cloth/cloth_bolt/cloth_bolt.json": ["file(mixintos/cloth_bolt.json)"],
 		
@@ -24,6 +47,7 @@
 		"/stonehearth/entities/plants/berry_basket/berry_basket.json": ["file(mixintos/colorsources/berry_basket.json)"]
 	},
 	"overrides" : {
-		"stonehearth/professions/carpenter/recipes/comfy_bed_recipe.json": "file(overrides/comfy_bed_recipe.json)"
+		"stonehearth/professions/carpenter/recipes/comfy_bed_recipe.json": "file(overrides/comfy_bed_recipe.json)",
+		"stonehearth/professions/carpenter/recipes/comfy_chair_recipe.json": "file(overrides/comfy_chair_recipe.json)"
 	}
 }

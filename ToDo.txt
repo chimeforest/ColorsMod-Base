@@ -1,11 +1,4 @@
 TODO:
-	Update bed icons
-	
-	Add more Colors: ROYGBP
-	switch dkcolors to reg
-
-	add black, indigo
-
 	Color Comfy Chairs
 
 	Add decorations
@@ -14,15 +7,17 @@ TODO:
 		cloth rugs
 	
 	Add Yellow Flowers/Growable dyes
+	add black, ?indigo?
 	
+	Fix sleeping pos bug
 	
 MODs
 	Colors-Basic	ROYGBP bed and decorationsm simple recipes
-	Colors-Advanced	ROYGBP w/li,med,and dark var. complex recipes
+	?Colors-Advanced	ROYGBP w/li,med,and dark var. complex recipes?
 	Colors-Rugs	A fur rig for each animal
-	Colors-Roofs	Colored Roofs
+	?Colors-Roofs	Colored Roofs?
 	Colors-Clothes	Colored uniforms
-	Colors-Lights	Colored lights/torches/etc
+	?Colors-Lights	Colored lights/torches/etc?
 	Colors-Tapestries	Colored wall hangings
 		Tapestry packs	Aditional Wall Hangings
 	Colors-Toys

@@ -1,0 +1,25 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Yellow Cloth Bolt",
+   "description" : "A Bolt of Yellow Cloth",
+   "flavor"      : "To make thicker by the width of one string: add string. Repeat 1,000,000 times.",
+   "portrait"    : "/colors/entities/cloth/cloth_bolt/cloth_bolt_yellow/cloth_bolt_yellow.png",
+
+   "ingredients": [
+      {
+         "material" : "yellow dye resource",
+         "count" : 1
+      },
+	  {
+         "material" : "undyed cloth resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors:cloth_bolt_yellow"
+      }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "stacks": 10
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cloth_bolt_yellow.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Yellow Bolt of Cloth",
+         "description": "Soft and comforting.",
+         "icon" : "file(cloth_bolt_yellow.png)"
+      },
+      "stonehearth:material" : {
+         "tags" :  "cloth resource cloth_asset yellow"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      }
+   }
+}
