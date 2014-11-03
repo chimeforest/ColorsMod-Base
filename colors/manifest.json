@@ -39,7 +39,15 @@
 		"banner_wall_big_green" : "file(entities/decoration/banner_wall_big/banner_wall_big_green)",
 		"banner_wall_big_blue" : "file(entities/decoration/banner_wall_big/banner_wall_big_blue)",
 		"banner_wall_big_purple" : "file(entities/decoration/banner_wall_big/banner_wall_big_purple)",
-		"banner_wall_big_undyed" : "file(entities/decoration/banner_wall_big/banner_wall_big_undyed)"
+		"banner_wall_big_undyed" : "file(entities/decoration/banner_wall_big/banner_wall_big_undyed)",
+		
+		"banner_wall_small_red" : "file(entities/decoration/banner_wall_small/banner_wall_small_red)",
+		"banner_wall_small_orange" : "file(entities/decoration/banner_wall_small/banner_wall_small_orange)",
+		"banner_wall_small_yellow" : "file(entities/decoration/banner_wall_small/banner_wall_small_yellow)",
+		"banner_wall_small_green" : "file(entities/decoration/banner_wall_small/banner_wall_small_green)",
+		"banner_wall_small_blue" : "file(entities/decoration/banner_wall_small/banner_wall_small_blue)",
+		"banner_wall_small_purple" : "file(entities/decoration/banner_wall_small/banner_wall_small_purple)",
+		"banner_wall_small_undyed" : "file(entities/decoration/banner_wall_small/banner_wall_small_undyed)"
 		
 	},
 	"mixintos" : {
@@ -56,6 +64,7 @@
 	},
 	"overrides" : {
 		"stonehearth/professions/weaver/recipes/banner_wall_big_recipe.json": "file(overrides/banner_wall_big_recipe.json)",
+		"stonehearth/professions/weaver/recipes/banner_wall_small_recipe.json": "file(overrides/banner_wall_small_recipe.json)",
 		"stonehearth/professions/carpenter/recipes/comfy_bed_recipe.json": "file(overrides/comfy_bed_recipe.json)",
 		"stonehearth/professions/carpenter/recipes/comfy_chair_recipe.json": "file(overrides/comfy_chair_recipe.json)"
 	}

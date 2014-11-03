@@ -22,7 +22,14 @@
 			"yellowbannerwallbig" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_big_yellow_recipe.json)"},
 			"greenbannerwallbig" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_big_green_recipe.json)"},
 			"bluebannerwallbig" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_big_blue_recipe.json)"},
-			"purplebannerwallbig" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_big_purple_recipe.json)"}
+			"purplebannerwallbig" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_big_purple_recipe.json)"},
+			
+			"redbannerwallsmall" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_small_red_recipe.json)"},
+			"orangebannerwallsmall" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_small_orange_recipe.json)"},
+			"yellowbannerwallsmall" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_small_yellow_recipe.json)"},
+			"greenbannerwallsmall" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_small_green_recipe.json)"},
+			"bluebannerwallsmall" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_small_blue_recipe.json)"},
+			"purplebannerwallsmall" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_small_purple_recipe.json)"}
 		}
    }
 }

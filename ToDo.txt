@@ -1,22 +1,29 @@
 TODO:
 	Add decorations
+		small flags
 		curtians
-		flags
 		cloth rugs
 	Add town flag
-	
-	Add Yellow Flowers/Growable dyes
-	add black, ?indigo?
+
+	add black, ?indigo? brown?
+	convert iconics for bed and chair to "right-handed"
 	
 MODs
-	Colors-Basic	ROYGBP bed and decorationsm simple recipes
-	?Colors-Advanced	ROYGBP w/li,med,and dark var. complex recipes?
-	Colors-Rugs	A fur rig for each animal
-	?Colors-Roofs	Colored Roofs?
-	Colors-Clothes	Colored uniforms
-	?Colors-Lights	Colored lights/torches/etc?
-	Colors-Tapestries	Colored wall hangings
-		Tapestry packs	Aditional Wall Hangings
-	Colors-Toys
+	Colors-Base		ROYGBP dyes and cloths
+	Colors-Decorations&Furn	Colored bed and decorations
+	Colors-Rugs		A fur rug for each animal
 
-	Colors-Complete Adv+Rugs+roofs+clothes+lights+tap+toy
+	Colors-Flowers		Adds colorsources which grow quickly, and more colors of wild flowers
+
+	Colors-Tapestries	Colored wall hangings
+	Colors-Toys		Colored toys and different toys added
+
+	Colors-Complete 	Includes all completed Colors mods, except Community Addons
+	
+	Colors-Community Addons	Separate mod for specially themed decorations etc
+
+MODs Someday
+	Colors-Clothes	Colored uniforms, fur armor
+	Colors-Roofs	Colored Roofs and walls
+	Colors-Lights	Colored lights/torches/etc
+	Colors-Advanced	ROYGBP w/li,med,and dark var. complex recipes
