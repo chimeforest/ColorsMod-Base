@@ -15,6 +15,14 @@
 			"greenclothbolt" : {"uri" : "file(/recipes/weaver/cloth_bolt_green_recipe.json)"},
 			"blueclothbolt" : {"uri" : "file(/recipes/weaver/cloth_bolt_blue_recipe.json)"},
 			"purpleclothbolt" : {"uri" : "file(/recipes/weaver/cloth_bolt_purple_recipe.json)"}
+		},
+		"Decorations" : {
+			"redbannerwallbig" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_big_red_recipe.json)"},
+			"orangebannerwallbig" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_big_orange_recipe.json)"},
+			"yellowbannerwallbig" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_big_yellow_recipe.json)"},
+			"greenbannerwallbig" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_big_green_recipe.json)"},
+			"bluebannerwallbig" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_big_blue_recipe.json)"},
+			"purplebannerwallbig" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_big_purple_recipe.json)"}
 		}
    }
 }

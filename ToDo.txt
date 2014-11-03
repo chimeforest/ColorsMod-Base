@@ -1,6 +1,4 @@
 TODO:
-	Color Comfy Chairs
-
 	Add decorations
 		curtians
 		flags
@@ -10,6 +8,7 @@ TODO:
 	add black, ?indigo?
 	
 	Fix sleeping pos bug
+	Fix Banner pos bug
 	
 MODs
 	Colors-Basic	ROYGBP bed and decorationsm simple recipes

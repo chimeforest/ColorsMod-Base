@@ -1,19 +1,19 @@
 {
 	"craftable_recipes" : {
 		"Colored Furniture" : {
-			"redcomfybed" : {"uri" : "file(/recipes/carpenter/comfy_bed_red_recipe.json)"},
-			"orqngecomfybed" : {"uri" : "file(/recipes/carpenter/comfy_bed_orange_recipe.json)"},
-			"yellowcomfybed" : {"uri" : "file(/recipes/carpenter/comfy_bed_yellow_recipe.json)"},
-			"greencomfybed" : {"uri" : "file(/recipes/carpenter/comfy_bed_green_recipe.json)"},
-			"bluecomfybed" : {"uri" : "file(/recipes/carpenter/comfy_bed_blue_recipe.json)"},
-			"purplecomfybed" : {"uri" : "file(/recipes/carpenter/comfy_bed_purple_recipe.json)"},
+			"redcomfybed" : {"uri" : "file(/recipes/carpenter/furniture/comfy_bed_red_recipe.json)"},
+			"orqngecomfybed" : {"uri" : "file(/recipes/carpenter/furniture/comfy_bed_orange_recipe.json)"},
+			"yellowcomfybed" : {"uri" : "file(/recipes/carpenter/furniture/comfy_bed_yellow_recipe.json)"},
+			"greencomfybed" : {"uri" : "file(/recipes/carpenter/furniture/comfy_bed_green_recipe.json)"},
+			"bluecomfybed" : {"uri" : "file(/recipes/carpenter/furniture/comfy_bed_blue_recipe.json)"},
+			"purplecomfybed" : {"uri" : "file(/recipes/carpenter/furniture/comfy_bed_purple_recipe.json)"},
 			
-			"redcomfychair" : {"uri" : "file(/recipes/carpenter/comfy_chair_red_recipe.json)"},
-			"orangecomfychair" : {"uri" : "file(/recipes/carpenter/comfy_chair_orange_recipe.json)"},
-			"yellowcomfychair" : {"uri" : "file(/recipes/carpenter/comfy_chair_yellow_recipe.json)"},
-			"greencomfychair" : {"uri" : "file(/recipes/carpenter/comfy_chair_green_recipe.json)"},
-			"bluecomfychair" : {"uri" : "file(/recipes/carpenter/comfy_chair_blue_recipe.json)"},
-			"purplecomfychair" : {"uri" : "file(/recipes/carpenter/comfy_chair_purple_recipe.json)"}
+			"redcomfychair" : {"uri" : "file(/recipes/carpenter/furniture/comfy_chair_red_recipe.json)"},
+			"orangecomfychair" : {"uri" : "file(/recipes/carpenter/furniture/comfy_chair_orange_recipe.json)"},
+			"yellowcomfychair" : {"uri" : "file(/recipes/carpenter/furniture/comfy_chair_yellow_recipe.json)"},
+			"greencomfychair" : {"uri" : "file(/recipes/carpenter/furniture/comfy_chair_green_recipe.json)"},
+			"bluecomfychair" : {"uri" : "file(/recipes/carpenter/furniture/comfy_chair_blue_recipe.json)"},
+			"purplecomfychair" : {"uri" : "file(/recipes/carpenter/furniture/comfy_chair_purple_recipe.json)"}
 		}
-   }
+	}
 }

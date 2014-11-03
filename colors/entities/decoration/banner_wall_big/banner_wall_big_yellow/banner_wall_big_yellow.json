@@ -1,0 +1,11 @@
+{
+   "mixins" : "file(banner_wall_big_yellow_ghost.json)",
+
+   "components": {
+      "stonehearth:entity_forms" : {
+         "iconic_form" : "file(banner_wall_big_yellow_iconic.json)",
+         "ghost_form" : "file(banner_wall_big_yellow_ghost.json)",
+         "placeable_on_walls" : true
+      }
+   }
+}

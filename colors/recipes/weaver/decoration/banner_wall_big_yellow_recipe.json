@@ -1,0 +1,25 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "Big Yellow Wall-Mounted Banner",
+   "description" : "Show your town pride with this decorative banner.",
+   "flavor"      : "Also a sign of affluence.",
+   "portrait"    : "/colors/entities/decoration/banner_wall_big/banner_wall_big_yellow/banner_wall_big_yellow.png",
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "material" : "yellow cloth resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors:banner_wall_big_yellow"
+      }
+  ]
+}
