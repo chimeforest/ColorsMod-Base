@@ -29,7 +29,14 @@
 			"yellowbannerwallsmall" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_small_yellow_recipe.json)"},
 			"greenbannerwallsmall" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_small_green_recipe.json)"},
 			"bluebannerwallsmall" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_small_blue_recipe.json)"},
-			"purplebannerwallsmall" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_small_purple_recipe.json)"}
+			"purplebannerwallsmall" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_small_purple_recipe.json)"},
+			
+			"redcurtains" : {"uri" : "file(/recipes/weaver/decoration/curtains_red_recipe.json)"},
+			"orangecurtains" : {"uri" : "file(/recipes/weaver/decoration/curtains_orange_recipe.json)"},
+			"yellowcurtains" : {"uri" : "file(/recipes/weaver/decoration/curtains_yellow_recipe.json)"},
+			"greencurtains" : {"uri" : "file(/recipes/weaver/decoration/curtains_green_recipe.json)"},
+			"bluecurtains" : {"uri" : "file(/recipes/weaver/decoration/curtains_blue_recipe.json)"},
+			"purplecurtains" : {"uri" : "file(/recipes/weaver/decoration/curtains_purple_recipe.json)"}
 		}
    }
 }

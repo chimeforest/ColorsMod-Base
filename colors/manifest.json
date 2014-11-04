@@ -47,7 +47,15 @@
 		"banner_wall_small_green" : "file(entities/decoration/banner_wall_small/banner_wall_small_green)",
 		"banner_wall_small_blue" : "file(entities/decoration/banner_wall_small/banner_wall_small_blue)",
 		"banner_wall_small_purple" : "file(entities/decoration/banner_wall_small/banner_wall_small_purple)",
-		"banner_wall_small_undyed" : "file(entities/decoration/banner_wall_small/banner_wall_small_undyed)"
+		"banner_wall_small_undyed" : "file(entities/decoration/banner_wall_small/banner_wall_small_undyed)",
+		
+		"curtains_red" : "file(entities/decoration/curtains/curtains_red)",
+		"curtains_orange" : "file(entities/decoration/curtains/curtains_orange)",
+		"curtains_yellow" : "file(entities/decoration/curtains/curtains_yellow)",
+		"curtains_green" : "file(entities/decoration/curtains/curtains_green)",
+		"curtains_blue" : "file(entities/decoration/curtains/curtains_blue)",
+		"curtains_purple" : "file(entities/decoration/curtains/curtains_purple)",
+		"curtains_undyed" : "file(entities/decoration/curtains/curtains_undyed)"
 		
 	},
 	"mixintos" : {
@@ -65,6 +73,8 @@
 	"overrides" : {
 		"stonehearth/professions/weaver/recipes/banner_wall_big_recipe.json": "file(overrides/banner_wall_big_recipe.json)",
 		"stonehearth/professions/weaver/recipes/banner_wall_small_recipe.json": "file(overrides/banner_wall_small_recipe.json)",
+		"stonehearth/professions/weaver/recipes/curtains_recipe.json": "file(overrides/curtains_recipe.json)",
+		
 		"stonehearth/professions/carpenter/recipes/comfy_bed_recipe.json": "file(overrides/comfy_bed_recipe.json)",
 		"stonehearth/professions/carpenter/recipes/comfy_chair_recipe.json": "file(overrides/comfy_chair_recipe.json)"
 	}

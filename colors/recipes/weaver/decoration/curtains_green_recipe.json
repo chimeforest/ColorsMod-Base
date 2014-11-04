@@ -1,0 +1,25 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 5,
+   "recipe_name" : "Pretty Green Curtains",
+   "description" : "Dresses up an otherwise ordinary window.",
+   "flavor"      : "Light-blocking technology encourages sleeping-in.",
+   "portrait"    : "/colors/entities/decoration/curtains/curtians_green/curtians_green.png",
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "material" : "green cloth resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors:curtains_green"
+      }
+  ]
+}

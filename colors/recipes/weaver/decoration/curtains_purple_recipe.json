@@ -2,24 +2,24 @@
    "type":"recipe",
 
    "work_units"  : 5,
-   "recipe_name" : "Pretty Curtains",
+   "recipe_name" : "Pretty Purple Curtains",
    "description" : "Dresses up an otherwise ordinary window.",
    "flavor"      : "Light-blocking technology encourages sleeping-in.",
-   "portrait"    : "/stonehearth/entities/decoration/curtains/curtains.png",
+   "portrait"    : "/colors/entities/decoration/curtains/curtians_purple/curtians_purple.png",
 
    "ingredients": [
       {
-         "material" : "cloth resource",
+         "material" : "wood resource",
          "count" : 1
       },
       {
-         "material" : "wood resource",
+         "material" : "purple cloth resource",
          "count" : 1
       }
   ],
   "produces": [
       {
-         "item":"stonehearth:decoration:curtains"
+         "item":"colors:curtains_purple"
       }
   ]
 }

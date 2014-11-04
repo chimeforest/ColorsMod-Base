@@ -1,16 +1,13 @@
 TODO:
-	Add decorations
-		small flags
-		curtians
-		cloth rugs
-	Add town flag
+	Add cloth rugs
+	Add town flags
 
 	add black, ?indigo? brown?
 	convert iconics for bed and chair to "right-handed"
 	
 MODs
 	Colors-Base		ROYGBP dyes and cloths
-	Colors-Decorations&Furn	Colored bed and decorations
+	Colors-Deco&Furn	Colored bed and decorations
 	Colors-Rugs		A fur rug for each animal
 
 	Colors-Flowers		Adds colorsources which grow quickly, and more colors of wild flowers
