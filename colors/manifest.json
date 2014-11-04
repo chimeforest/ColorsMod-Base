@@ -55,7 +55,15 @@
 		"curtains_green" : "file(entities/decoration/curtains/curtains_green)",
 		"curtains_blue" : "file(entities/decoration/curtains/curtains_blue)",
 		"curtains_purple" : "file(entities/decoration/curtains/curtains_purple)",
-		"curtains_undyed" : "file(entities/decoration/curtains/curtains_undyed)"
+		"curtains_undyed" : "file(entities/decoration/curtains/curtains_undyed)",
+		
+		"throw_rug_red" : "file(entities/decoration/throw_rug/throw_rug_red)",
+		"throw_rug_orange" : "file(entities/decoration/throw_rug/throw_rug_orange)",
+		"throw_rug_yellow" : "file(entities/decoration/throw_rug/throw_rug_yellow)",
+		"throw_rug_green" : "file(entities/decoration/throw_rug/throw_rug_green)",
+		"throw_rug_blue" : "file(entities/decoration/throw_rug/throw_rug_blue)",
+		"throw_rug_purple" : "file(entities/decoration/throw_rug/throw_rug_purple)",
+		"throw_rug_undyed" : "file(entities/decoration/throw_rug/throw_rug_undyed)"
 		
 	},
 	"mixintos" : {
@@ -74,6 +82,7 @@
 		"stonehearth/professions/weaver/recipes/banner_wall_big_recipe.json": "file(overrides/banner_wall_big_recipe.json)",
 		"stonehearth/professions/weaver/recipes/banner_wall_small_recipe.json": "file(overrides/banner_wall_small_recipe.json)",
 		"stonehearth/professions/weaver/recipes/curtains_recipe.json": "file(overrides/curtains_recipe.json)",
+		"stonehearth/professions/weaver/recipes/throw_rug_recipe.json": "file(overrides/throw_rug_recipe.json)",
 		
 		"stonehearth/professions/carpenter/recipes/comfy_bed_recipe.json": "file(overrides/comfy_bed_recipe.json)",
 		"stonehearth/professions/carpenter/recipes/comfy_chair_recipe.json": "file(overrides/comfy_chair_recipe.json)"

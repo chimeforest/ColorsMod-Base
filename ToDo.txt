@@ -1,9 +1,9 @@
 TODO:
-	Add cloth rugs
 	Add town flags
 
 	add black, ?indigo? brown?
 	convert iconics for bed and chair to "right-handed"
+	convert rugs to "right-handed"
 	
 MODs
 	Colors-Base		ROYGBP dyes and cloths

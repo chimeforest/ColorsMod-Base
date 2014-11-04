@@ -1,0 +1,23 @@
+{
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(throw_rug_red.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Decorative Red Throw Rug",
+         "description": "Brightens up that old dusty floor.",
+         "icon" : "file(throw_rug_red.png)"
+      },
+      "stonehearth:material" : {
+         "tags" : "cloth crafted red"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0 },
+         "region_origin" : { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   }
+}

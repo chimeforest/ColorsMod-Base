@@ -36,7 +36,14 @@
 			"yellowcurtains" : {"uri" : "file(/recipes/weaver/decoration/curtains_yellow_recipe.json)"},
 			"greencurtains" : {"uri" : "file(/recipes/weaver/decoration/curtains_green_recipe.json)"},
 			"bluecurtains" : {"uri" : "file(/recipes/weaver/decoration/curtains_blue_recipe.json)"},
-			"purplecurtains" : {"uri" : "file(/recipes/weaver/decoration/curtains_purple_recipe.json)"}
+			"purplecurtains" : {"uri" : "file(/recipes/weaver/decoration/curtains_purple_recipe.json)"},
+			
+			"redthrowrug" : {"uri" : "file(/recipes/weaver/decoration/throw_rug_red_recipe.json)"},
+			"orangethrowrug" : {"uri" : "file(/recipes/weaver/decoration/throw_rug_orange_recipe.json)"},
+			"yellowthrowrug" : {"uri" : "file(/recipes/weaver/decoration/throw_rug_yellow_recipe.json)"},
+			"greenthrowrug" : {"uri" : "file(/recipes/weaver/decoration/throw_rug_green_recipe.json)"},
+			"bluethrowrug" : {"uri" : "file(/recipes/weaver/decoration/throw_rug_blue_recipe.json)"},
+			"purplethrowrug" : {"uri" : "file(/recipes/weaver/decoration/throw_rug_purple_recipe.json)"}
 		}
    }
 }

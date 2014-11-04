@@ -5,7 +5,7 @@
    "recipe_name" : "Decorative Throw Rug",
    "description" : "Brightens up that old dusty floor.",
    "flavor"      : "Too beautiful to step on.",
-   "portrait"    : "/stonehearth/entities/decoration/throw_rug/throw_rug.png",
+   "portrait"    : "/colors/entities/decoration/throw_rug/throw_rug_undyed/throw_rug_undyed.png",
 
    "ingredients": [
       {
@@ -15,7 +15,7 @@
   ],
   "produces": [
       {
-         "item" : "stonehearth:decoration:throw_rug"
+         "item" : "colors:throw_rug_undyed"
       }
   ]
 }

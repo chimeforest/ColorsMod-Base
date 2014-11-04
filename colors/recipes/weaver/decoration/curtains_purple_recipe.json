@@ -5,7 +5,7 @@
    "recipe_name" : "Pretty Purple Curtains",
    "description" : "Dresses up an otherwise ordinary window.",
    "flavor"      : "Light-blocking technology encourages sleeping-in.",
-   "portrait"    : "/colors/entities/decoration/curtains/curtians_purple/curtians_purple.png",
+   "portrait"    : "/colors/entities/decoration/curtains/curtains_purple/curtains_purple.png",
 
    "ingredients": [
       {

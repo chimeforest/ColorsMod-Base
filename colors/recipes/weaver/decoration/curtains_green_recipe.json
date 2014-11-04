@@ -5,7 +5,7 @@
    "recipe_name" : "Pretty Green Curtains",
    "description" : "Dresses up an otherwise ordinary window.",
    "flavor"      : "Light-blocking technology encourages sleeping-in.",
-   "portrait"    : "/colors/entities/decoration/curtains/curtians_green/curtians_green.png",
+   "portrait"    : "/colors/entities/decoration/curtains/curtains_green/curtains_green.png",
 
    "ingredients": [
       {

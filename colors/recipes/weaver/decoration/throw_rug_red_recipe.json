@@ -1,0 +1,25 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "Decorative Red Throw Rug",
+   "description" : "Brightens up that old dusty floor.",
+   "flavor"      : "Too beautiful to step on.",
+   "portrait"    : "/colors/entities/decoration/throw_rug/throw_rug_red/throw_rug_red.png",
+
+   "ingredients": [
+      {
+         "material" : "thread resource",
+         "count" : 3
+      },
+	  {
+         "material" : "red dye resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item" : "colors:throw_rug_red"
+      }
+  ]
+}
