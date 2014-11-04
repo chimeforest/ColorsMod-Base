@@ -63,7 +63,15 @@
 		"throw_rug_green" : "file(entities/decoration/throw_rug/throw_rug_green)",
 		"throw_rug_blue" : "file(entities/decoration/throw_rug/throw_rug_blue)",
 		"throw_rug_purple" : "file(entities/decoration/throw_rug/throw_rug_purple)",
-		"throw_rug_undyed" : "file(entities/decoration/throw_rug/throw_rug_undyed)"
+		"throw_rug_undyed" : "file(entities/decoration/throw_rug/throw_rug_undyed)",
+		
+		"camp_standard_red" : "file(entities/decoration/camp_standard/camp_standard_red)",
+		"camp_standard_orange" : "file(entities/decoration/camp_standard/camp_standard_orange)",
+		"camp_standard_yellow" : "file(entities/decoration/camp_standard/camp_standard_yellow)",
+		"camp_standard_green" : "file(entities/decoration/camp_standard/camp_standard_green)",
+		"camp_standard_blue" : "file(entities/decoration/camp_standard/camp_standard_blue)",
+		"camp_standard_purple" : "file(entities/decoration/camp_standard/camp_standard_purple)",
+		"camp_standard_undyed" : "file(entities/decoration/camp_standard/camp_standard_undyed)"
 		
 	},
 	"mixintos" : {

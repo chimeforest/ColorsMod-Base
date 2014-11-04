@@ -1,0 +1,19 @@
+TODO:
+	See if it is possible to dye 3 threads at once.
+	Pick out big banner for air/fire
+	Create iconics for big banners
+	
+	Add decorations:
+		Large Banners
+		Small Banners
+		Tapestries
+		Camp Standard
+		?rugs/beds/curtains?
+
+	Add NEW(upgrade) clothes
+		worker
+		farmer
+		carpenter
+		weaver
+		footman
+		trapper

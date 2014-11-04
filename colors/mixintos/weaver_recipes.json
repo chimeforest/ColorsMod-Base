@@ -43,7 +43,15 @@
 			"yellowthrowrug" : {"uri" : "file(/recipes/weaver/decoration/throw_rug_yellow_recipe.json)"},
 			"greenthrowrug" : {"uri" : "file(/recipes/weaver/decoration/throw_rug_green_recipe.json)"},
 			"bluethrowrug" : {"uri" : "file(/recipes/weaver/decoration/throw_rug_blue_recipe.json)"},
-			"purplethrowrug" : {"uri" : "file(/recipes/weaver/decoration/throw_rug_purple_recipe.json)"}
+			"purplethrowrug" : {"uri" : "file(/recipes/weaver/decoration/throw_rug_purple_recipe.json)"},
+			
+			"redcampstandard" : {"uri" : "file(/recipes/weaver/decoration/camp_standard_red_recipe.json)"},
+			"orangecampstandard" : {"uri" : "file(/recipes/weaver/decoration/camp_standard_orange_recipe.json)"},
+			"yellowcampstandard" : {"uri" : "file(/recipes/weaver/decoration/camp_standard_yellow_recipe.json)"},
+			"greencampstandard" : {"uri" : "file(/recipes/weaver/decoration/camp_standard_green_recipe.json)"},
+			"bluecampstandard" : {"uri" : "file(/recipes/weaver/decoration/camp_standard_blue_recipe.json)"},
+			"purplecampstandard" : {"uri" : "file(/recipes/weaver/decoration/camp_standard_purple_recipe.json)"},
+			"undyedcampstandard" : {"uri" : "file(/recipes/weaver/decoration/camp_standard_undyed_recipe.json)"}
 		}
    }
 }

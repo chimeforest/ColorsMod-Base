@@ -1,14 +1,16 @@
 TODO:
-	Add town flags
-
 	add black, ?indigo? brown?
 	convert iconics for bed and chair to "right-handed"
 	convert rugs to "right-handed"
 	
+	Spit colors into Base, Deco, and Rugs
+	Add dyes to stockpile list
+	See if it is possible to dye 3 threads at once.
+	
 MODs
 	Colors-Base		ROYGBP dyes and cloths
 	Colors-Deco&Furn	Colored bed and decorations
-	Colors-Rugs		A fur rug for each animal
+	Colors-Rugs&Standards	A fur rug and standard for each animal
 
 	Colors-Flowers		Adds colorsources which grow quickly, and more colors of wild flowers
 
