@@ -1,0 +1,25 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 5,
+   "recipe_name" : "Red Comfy Bed",
+   "description" : "Eight hours will leave you as refreshed as the day you were born.",
+   "flavor"      : "Nobody ever wants to get out. It makes emergency evacuations awkward.",
+   "portrait"    : "/colors-base/entities/furniture/comfy_bed/comfy_bed_red/comfy_bed_red.png",
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "material" : "red cloth resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors-base:comfy_bed_red"
+      }
+  ]
+}

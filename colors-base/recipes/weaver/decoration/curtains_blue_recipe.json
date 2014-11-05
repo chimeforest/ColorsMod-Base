@@ -1,0 +1,25 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 5,
+   "recipe_name" : "Pretty Blue Curtains",
+   "description" : "Dresses up an otherwise ordinary window.",
+   "flavor"      : "Light-blocking technology encourages sleeping-in.",
+   "portrait"    : "/colors-base/entities/decoration/curtains/curtains_blue/curtains_blue.png",
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "material" : "blue cloth resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors-base:curtains_blue"
+      }
+  ]
+}

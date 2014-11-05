@@ -1,0 +1,25 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 5,
+   "recipe_name" : "Pretty Purple Curtains",
+   "description" : "Dresses up an otherwise ordinary window.",
+   "flavor"      : "Light-blocking technology encourages sleeping-in.",
+   "portrait"    : "/colors-base/entities/decoration/curtains/curtains_purple/curtains_purple.png",
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "material" : "purple cloth resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors-base:curtains_purple"
+      }
+  ]
+}

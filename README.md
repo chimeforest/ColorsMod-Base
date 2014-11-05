@@ -1,4 +1,6 @@
-ColorsMod-Basic
+ColorsMod-Base
 ===============
 
-Adds basic colored dyes and cloths to Stonehearth.
+Adds:
+	Colored Dye
+	Colored Cloth

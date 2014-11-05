@@ -1,0 +1,98 @@
+{
+	"info": {
+		"name" : "colors-base"
+	},
+	"aliases"  : {
+		"dye_red": "file(entities/cloth/dye/dye_red)",
+		"dye_orange": "file(entities/cloth/dye/dye_orange)",
+		"dye_yellow": "file(entities/cloth/dye/dye_yellow)",
+		"dye_green": "file(entities/cloth/dye/dye_green)",
+		"dye_blue": "file(entities/cloth/dye/dye_blue)",
+		"dye_purple": "file(entities/cloth/dye/dye_purple)",
+		
+		"cloth_bolt_red": "file(entities/cloth/cloth_bolt/cloth_bolt_red)",
+		"cloth_bolt_orange": "file(entities/cloth/cloth_bolt/cloth_bolt_orange)",
+		"cloth_bolt_yellow": "file(entities/cloth/cloth_bolt/cloth_bolt_yellow)",
+		"cloth_bolt_green": "file(entities/cloth/cloth_bolt/cloth_bolt_green)",
+		"cloth_bolt_blue": "file(entities/cloth/cloth_bolt/cloth_bolt_blue)",
+		"cloth_bolt_purple": "file(entities/cloth/cloth_bolt/cloth_bolt_purple)",
+		
+		"comfy_bed_red" : "file(entities/furniture/comfy_bed/comfy_bed_red)",
+		"comfy_bed_orange" : "file(entities/furniture/comfy_bed/comfy_bed_orange)",
+		"comfy_bed_yellow" : "file(entities/furniture/comfy_bed/comfy_bed_yellow)",
+		"comfy_bed_green" : "file(entities/furniture/comfy_bed/comfy_bed_green)",
+		"comfy_bed_blue" : "file(entities/furniture/comfy_bed/comfy_bed_blue)",
+		"comfy_bed_purple" : "file(entities/furniture/comfy_bed/comfy_bed_purple)",
+		"comfy_bed_undyed" : "file(entities/furniture/comfy_bed/comfy_bed_undyed)",
+		
+		"comfy_chair_red" : "file(entities/furniture/comfy_chair/comfy_chair_red)",
+		"comfy_chair_orange" : "file(entities/furniture/comfy_chair/comfy_chair_orange)",
+		"comfy_chair_yellow" : "file(entities/furniture/comfy_chair/comfy_chair_yellow)",
+		"comfy_chair_green" : "file(entities/furniture/comfy_chair/comfy_chair_green)",
+		"comfy_chair_blue" : "file(entities/furniture/comfy_chair/comfy_chair_blue)",
+		"comfy_chair_purple" : "file(entities/furniture/comfy_chair/comfy_chair_purple)",
+		"comfy_chair_undyed" : "file(entities/furniture/comfy_chair/comfy_chair_undyed)",
+		
+		"banner_wall_big_red" : "file(entities/decoration/banner_wall_big/banner_wall_big_red)",
+		"banner_wall_big_orange" : "file(entities/decoration/banner_wall_big/banner_wall_big_orange)",
+		"banner_wall_big_yellow" : "file(entities/decoration/banner_wall_big/banner_wall_big_yellow)",
+		"banner_wall_big_green" : "file(entities/decoration/banner_wall_big/banner_wall_big_green)",
+		"banner_wall_big_blue" : "file(entities/decoration/banner_wall_big/banner_wall_big_blue)",
+		"banner_wall_big_purple" : "file(entities/decoration/banner_wall_big/banner_wall_big_purple)",
+		"banner_wall_big_undyed" : "file(entities/decoration/banner_wall_big/banner_wall_big_undyed)",
+		
+		"banner_wall_small_red" : "file(entities/decoration/banner_wall_small/banner_wall_small_red)",
+		"banner_wall_small_orange" : "file(entities/decoration/banner_wall_small/banner_wall_small_orange)",
+		"banner_wall_small_yellow" : "file(entities/decoration/banner_wall_small/banner_wall_small_yellow)",
+		"banner_wall_small_green" : "file(entities/decoration/banner_wall_small/banner_wall_small_green)",
+		"banner_wall_small_blue" : "file(entities/decoration/banner_wall_small/banner_wall_small_blue)",
+		"banner_wall_small_purple" : "file(entities/decoration/banner_wall_small/banner_wall_small_purple)",
+		"banner_wall_small_undyed" : "file(entities/decoration/banner_wall_small/banner_wall_small_undyed)",
+		
+		"curtains_red" : "file(entities/decoration/curtains/curtains_red)",
+		"curtains_orange" : "file(entities/decoration/curtains/curtains_orange)",
+		"curtains_yellow" : "file(entities/decoration/curtains/curtains_yellow)",
+		"curtains_green" : "file(entities/decoration/curtains/curtains_green)",
+		"curtains_blue" : "file(entities/decoration/curtains/curtains_blue)",
+		"curtains_purple" : "file(entities/decoration/curtains/curtains_purple)",
+		"curtains_undyed" : "file(entities/decoration/curtains/curtains_undyed)",
+		
+		"throw_rug_red" : "file(entities/decoration/throw_rug/throw_rug_red)",
+		"throw_rug_orange" : "file(entities/decoration/throw_rug/throw_rug_orange)",
+		"throw_rug_yellow" : "file(entities/decoration/throw_rug/throw_rug_yellow)",
+		"throw_rug_green" : "file(entities/decoration/throw_rug/throw_rug_green)",
+		"throw_rug_blue" : "file(entities/decoration/throw_rug/throw_rug_blue)",
+		"throw_rug_purple" : "file(entities/decoration/throw_rug/throw_rug_purple)",
+		"throw_rug_undyed" : "file(entities/decoration/throw_rug/throw_rug_undyed)",
+		
+		"camp_standard_red" : "file(entities/decoration/camp_standard/camp_standard_red)",
+		"camp_standard_orange" : "file(entities/decoration/camp_standard/camp_standard_orange)",
+		"camp_standard_yellow" : "file(entities/decoration/camp_standard/camp_standard_yellow)",
+		"camp_standard_green" : "file(entities/decoration/camp_standard/camp_standard_green)",
+		"camp_standard_blue" : "file(entities/decoration/camp_standard/camp_standard_blue)",
+		"camp_standard_purple" : "file(entities/decoration/camp_standard/camp_standard_purple)",
+		"camp_standard_undyed" : "file(entities/decoration/camp_standard/camp_standard_undyed)"
+		
+	},
+	"mixintos" : {
+		"/stonehearth/professions/weaver/recipes/recipes.json": ["file(mixintos/weaver_recipes.json)"],
+		"/stonehearth/professions/carpenter/recipes/recipes.json": ["file(mixintos/carpenter_recipes.json)"],
+		
+		"/stonehearth/entities/cloth/cloth_bolt/cloth_bolt.json": ["file(mixintos/cloth_bolt.json)"],
+		
+		"/stonehearth/entities/plants/brightbell/brightbell.json": ["file(mixintos/colorsources/brightbell.json)"],
+		"/stonehearth/entities/plants/pumpkin/pumpkin_harvest/pumpkin_harvest.json": ["file(mixintos/colorsources/pumpkin.json)"],
+		"/stonehearth/entities/plants/corn/corn_basket/corn_basket.json": ["file(mixintos/colorsources/corn.json)"],
+		"/stonehearth/entities/plants/frostsnap/frostsnap.json": ["file(mixintos/colorsources/frostsnap.json)"],
+		"/stonehearth/entities/plants/berry_basket/berry_basket.json": ["file(mixintos/colorsources/berry_basket.json)"]
+	},
+	"overrides" : {
+		"stonehearth/professions/weaver/recipes/banner_wall_big_recipe.json": "file(overrides/banner_wall_big_recipe.json)",
+		"stonehearth/professions/weaver/recipes/banner_wall_small_recipe.json": "file(overrides/banner_wall_small_recipe.json)",
+		"stonehearth/professions/weaver/recipes/curtains_recipe.json": "file(overrides/curtains_recipe.json)",
+		"stonehearth/professions/weaver/recipes/throw_rug_recipe.json": "file(overrides/throw_rug_recipe.json)",
+		
+		"stonehearth/professions/carpenter/recipes/comfy_bed_recipe.json": "file(overrides/comfy_bed_recipe.json)",
+		"stonehearth/professions/carpenter/recipes/comfy_chair_recipe.json": "file(overrides/comfy_chair_recipe.json)"
+	}
+}

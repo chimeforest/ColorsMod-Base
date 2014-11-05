@@ -1,0 +1,25 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "Decorative Blue Throw Rug",
+   "description" : "Brightens up that old dusty floor.",
+   "flavor"      : "Too beautiful to step on.",
+   "portrait"    : "/colors-base/entities/decoration/throw_rug/throw_rug_blue/throw_rug_blue.png",
+
+   "ingredients": [
+      {
+         "material" : "thread resource",
+         "count" : 3
+      },
+	  {
+         "material" : "blue dye resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item" : "colors-base:throw_rug_blue"
+      }
+  ]
+}

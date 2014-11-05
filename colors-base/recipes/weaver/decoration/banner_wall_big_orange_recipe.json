@@ -1,0 +1,25 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "Big Orange Wall-Mounted Banner",
+   "description" : "Show your town pride with this decorative banner.",
+   "flavor"      : "Also a sign of affluence.",
+   "portrait"    : "/colors-base/entities/decoration/banner_wall_big/banner_wall_big_orange/banner_wall_big_orange.png",
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "material" : "orange cloth resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors-base:banner_wall_big_orange"
+      }
+  ]
+}
