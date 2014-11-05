@@ -18,7 +18,7 @@
          "icon" : "file(dye_orange.png)"
       },
       "stonehearth:material" : {
-         "tags" :  "orange dye resource"
+         "tags" :  "orange dye resource cloth_asset"
       },
       "mob" : {
          "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }

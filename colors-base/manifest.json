@@ -10,6 +10,13 @@
 		"dye_blue": "file(entities/cloth/dye/dye_blue)",
 		"dye_purple": "file(entities/cloth/dye/dye_purple)",
 		
+		"thread_red": "file(entities/cloth/thread/thread_red)",
+		"thread_orange": "file(entities/cloth/thread/thread_orange)",
+		"thread_yellow": "file(entities/cloth/thread/thread_yellow)",
+		"thread_green": "file(entities/cloth/thread/thread_green)",
+		"thread_blue": "file(entities/cloth/thread/thread_blue)",
+		"thread_purple": "file(entities/cloth/thread/thread_purple)",
+		
 		"cloth_bolt_red": "file(entities/cloth/cloth_bolt/cloth_bolt_red)",
 		"cloth_bolt_orange": "file(entities/cloth/cloth_bolt/cloth_bolt_orange)",
 		"cloth_bolt_yellow": "file(entities/cloth/cloth_bolt/cloth_bolt_yellow)",
@@ -79,6 +86,7 @@
 		"/stonehearth/professions/carpenter/recipes/recipes.json": ["file(mixintos/carpenter_recipes.json)"],
 		
 		"/stonehearth/entities/cloth/cloth_bolt/cloth_bolt.json": ["file(mixintos/cloth_bolt.json)"],
+		"/stonehearth/entities/cloth/thread/thread.json": ["file(mixintos/thread.json)"],
 		
 		"/stonehearth/entities/plants/brightbell/brightbell.json": ["file(mixintos/colorsources/brightbell.json)"],
 		"/stonehearth/entities/plants/pumpkin/pumpkin_harvest/pumpkin_harvest.json": ["file(mixintos/colorsources/pumpkin.json)"],
@@ -89,6 +97,7 @@
 	"overrides" : {
 		"stonehearth/professions/weaver/recipes/banner_wall_big_recipe.json": "file(overrides/banner_wall_big_recipe.json)",
 		"stonehearth/professions/weaver/recipes/banner_wall_small_recipe.json": "file(overrides/banner_wall_small_recipe.json)",
+		"stonehearth/professions/weaver/recipes/cloth_bolt_recipe.json": "file(overrides/cloth_bolt_recipe.json)",
 		"stonehearth/professions/weaver/recipes/curtains_recipe.json": "file(overrides/curtains_recipe.json)",
 		"stonehearth/professions/weaver/recipes/throw_rug_recipe.json": "file(overrides/throw_rug_recipe.json)",
 		

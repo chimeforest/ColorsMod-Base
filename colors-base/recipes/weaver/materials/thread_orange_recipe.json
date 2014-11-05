@@ -1,0 +1,31 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Orange Thread x3",
+   "description" : "Used to create works of art",
+   "flavor"      : "Sew, sew, sew your cloth...",
+   "portrait"    : "/colors-base/entities/cloth/thread/thread_orange/thread_orange.png",
+
+   "ingredients": [
+      {
+         "material" : "undyed thread resource",
+         "count" : 3
+      },
+	  {
+         "material" : "orange dye resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors-base:thread_orange"
+      },
+	  {
+         "item":"colors-base:thread_orange"
+      },
+	  {
+         "item":"colors-base:thread_orange"
+      }
+  ]
+}

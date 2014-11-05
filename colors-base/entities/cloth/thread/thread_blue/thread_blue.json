@@ -1,0 +1,22 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(thread_blue.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Spool of Blue Thread",
+         "description": "Nobody would ever think this started with a sheep. Or a plant.",
+         "icon" : "file(thread_blue.png)"
+
+      },
+      "stonehearth:material" : {
+         "tags" :  "blue thread resource cloth_asset"
+      }
+   }
+}

@@ -18,7 +18,7 @@
          "icon" : "file(dye_red.png)"
       },
       "stonehearth:material" : {
-         "tags" :  "red dye resource"
+         "tags" :  "red dye resource cloth_asset"
       },
       "mob" : {
          "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }

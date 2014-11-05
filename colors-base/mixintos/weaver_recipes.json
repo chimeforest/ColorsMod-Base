@@ -1,22 +1,27 @@
 {
 	"craftable_recipes" : {
 		"Dyes" : {
-			"reddye" : {"uri" : "file(/recipes/weaver/dye_red_recipe.json)"},
-			"orangedye" : {"uri" : "file(/recipes/weaver/dye_orange_recipe.json)"},
-			"yellowdye" : {"uri" : "file(/recipes/weaver/dye_yellow_recipe.json)"},
-			"greendye" : {"uri" : "file(/recipes/weaver/dye_green_recipe.json)"},
-			"bluedye" : {"uri" : "file(/recipes/weaver/dye_blue_recipe.json)"},
-			"purpledye" : {"uri" : "file(/recipes/weaver/dye_purple_recipe.json)"}
+			"reddye" : {"uri" : "file(/recipes/weaver/materials/dye_red_recipe.json)"},
+			"orangedye" : {"uri" : "file(/recipes/weaver/materials/dye_orange_recipe.json)"},
+			"yellowdye" : {"uri" : "file(/recipes/weaver/materials/dye_yellow_recipe.json)"},
+			"greendye" : {"uri" : "file(/recipes/weaver/materials/dye_green_recipe.json)"},
+			"bluedye" : {"uri" : "file(/recipes/weaver/materials/dye_blue_recipe.json)"},
+			"purpledye" : {"uri" : "file(/recipes/weaver/materials/dye_purple_recipe.json)"}
 		},
 		"Crafting Materials" : {
-			"redclothbolt" : {"uri" : "file(/recipes/weaver/cloth_bolt_red_recipe.json)"},
-			"orangeclothbolt" : {"uri" : "file(/recipes/weaver/cloth_bolt_orange_recipe.json)"},
-			"yellowclothbolt" : {"uri" : "file(/recipes/weaver/cloth_bolt_yellow_recipe.json)"},
-			"greenclothbolt" : {"uri" : "file(/recipes/weaver/cloth_bolt_green_recipe.json)"},
-			"blueclothbolt" : {"uri" : "file(/recipes/weaver/cloth_bolt_blue_recipe.json)"},
-			"purpleclothbolt" : {"uri" : "file(/recipes/weaver/cloth_bolt_purple_recipe.json)"},
+			"redclothbolt" : {"uri" : "file(/recipes/weaver/materials/cloth_bolt_red_recipe.json)"},
+			"orangeclothbolt" : {"uri" : "file(/recipes/weaver/materials/cloth_bolt_orange_recipe.json)"},
+			"yellowclothbolt" : {"uri" : "file(/recipes/weaver/materials/cloth_bolt_yellow_recipe.json)"},
+			"greenclothbolt" : {"uri" : "file(/recipes/weaver/materials/cloth_bolt_green_recipe.json)"},
+			"blueclothbolt" : {"uri" : "file(/recipes/weaver/materials/cloth_bolt_blue_recipe.json)"},
+			"purpleclothbolt" : {"uri" : "file(/recipes/weaver/materials/cloth_bolt_purple_recipe.json)"},
 			
-			"thread_multiplier" : {"uri" : "file(/recipes/weaver/thread_multiplier_recipe.json)"}
+			"redthread" : {"uri" : "file(/recipes/weaver/materials/thread_red_recipe.json)"},
+			"orangethread" : {"uri" : "file(/recipes/weaver/materials/thread_orange_recipe.json)"},
+			"yellowthread" : {"uri" : "file(/recipes/weaver/materials/thread_yellow_recipe.json)"},
+			"greenthread" : {"uri" : "file(/recipes/weaver/materials/thread_green_recipe.json)"},
+			"bluethread" : {"uri" : "file(/recipes/weaver/materials/thread_blue_recipe.json)"},
+			"purplethread" : {"uri" : "file(/recipes/weaver/materials/thread_purple_recipe.json)"}
 		},
 		"Decorations" : {
 			"redbannerwallbig" : {"uri" : "file(/recipes/weaver/decoration/banner_wall_big_red_recipe.json)"},
