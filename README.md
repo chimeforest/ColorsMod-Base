@@ -18,7 +18,8 @@ Modifies:
 	Recipes for the above
 
 TODO:
-	Add Black color
-	Add more wildflowers(OYGPBl)
+	Add Black color?
+	Add more wildflowers(OYGPBl)?
+	Update to dev version
 	Review tapestry recipe
 	Consider sorting recipes by color
