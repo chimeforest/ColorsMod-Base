@@ -82,8 +82,8 @@
 		
 	},
 	"mixintos" : {
-		"/stonehearth/professions/weaver/recipes/recipes.json": ["file(mixintos/weaver_recipes.json)"],
-		"/stonehearth/professions/carpenter/recipes/recipes.json": ["file(mixintos/carpenter_recipes.json)"],
+		"/stonehearth/jobs/weaver/recipes/recipes.json": ["file(mixintos/weaver_recipes.json)"],
+		"/stonehearth/jobs/carpenter/recipes/recipes.json": ["file(mixintos/carpenter_recipes.json)"],
 		
 		"/stonehearth/entities/cloth/cloth_bolt/cloth_bolt.json": ["file(mixintos/cloth_bolt.json)"],
 		"/stonehearth/entities/cloth/thread/thread.json": ["file(mixintos/thread.json)"],
@@ -95,13 +95,13 @@
 		"/stonehearth/entities/plants/berry_basket/berry_basket.json": ["file(mixintos/colorsources/berry_basket.json)"]
 	},
 	"overrides" : {
-		"stonehearth/professions/weaver/recipes/banner_wall_big_recipe.json": "file(overrides/banner_wall_big_recipe.json)",
-		"stonehearth/professions/weaver/recipes/banner_wall_small_recipe.json": "file(overrides/banner_wall_small_recipe.json)",
-		"stonehearth/professions/weaver/recipes/cloth_bolt_recipe.json": "file(overrides/cloth_bolt_recipe.json)",
-		"stonehearth/professions/weaver/recipes/curtains_recipe.json": "file(overrides/curtains_recipe.json)",
-		"stonehearth/professions/weaver/recipes/throw_rug_recipe.json": "file(overrides/throw_rug_recipe.json)",
+		"stonehearth/jobs/weaver/recipes/banner_wall_big_recipe.json": "file(overrides/banner_wall_big_recipe.json)",
+		"stonehearth/jobs/weaver/recipes/banner_wall_small_recipe.json": "file(overrides/banner_wall_small_recipe.json)",
+		"stonehearth/jobs/weaver/recipes/cloth_bolt_recipe.json": "file(overrides/cloth_bolt_recipe.json)",
+		"stonehearth/jobs/weaver/recipes/curtains_recipe.json": "file(overrides/curtains_recipe.json)",
+		"stonehearth/jobs/weaver/recipes/throw_rug_recipe.json": "file(overrides/throw_rug_recipe.json)",
 		
-		"stonehearth/professions/carpenter/recipes/comfy_bed_recipe.json": "file(overrides/comfy_bed_recipe.json)",
-		"stonehearth/professions/carpenter/recipes/comfy_chair_recipe.json": "file(overrides/comfy_chair_recipe.json)"
+		"stonehearth/jobs/carpenter/recipes/comfy_bed_recipe.json": "file(overrides/comfy_bed_recipe.json)",
+		"stonehearth/jobs/carpenter/recipes/comfy_chair_recipe.json": "file(overrides/comfy_chair_recipe.json)"
 	}
 }
