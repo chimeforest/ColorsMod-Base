@@ -1,0 +1,23 @@
+{
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(wood_throne_blue.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Blue Wooden Throne",
+         "description": "Cushioned seat, fit for a king!",
+         "icon" : "file(wood_throne_blue.png)"
+      },
+      "stonehearth:material" : {
+         "tags" : "wood furniture crafted chair blue"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 },
+         "region_origin" : { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   }
+}

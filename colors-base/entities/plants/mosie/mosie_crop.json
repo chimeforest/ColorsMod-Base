@@ -1,0 +1,78 @@
+{
+   "type": "entity", 
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(mosie.qb)"
+            ]
+         },
+         "mosie_1": {
+            "models": [
+               "file(mosie_1.qb)"
+            ]
+         },
+         "mosie_2": {
+            "models": [
+               "file(mosie_2.qb)"
+            ]
+         },
+         "mosie_3": {
+            "models": [
+               "file(mosie_3.qb)"
+            ]
+         },
+         "mosie_4": {
+            "models": [
+               "file(mosie.qb)"
+            ]
+         }
+      },
+      "render_info" : {
+         "scale" : 0.13
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "unit_info": {
+         "name": "Mosie Flower", 
+         "description": "It's chill to the touch.", 
+         "icon" : "file(mosie.png)"
+      },
+      "stonehearth:crop" : {
+         "resource_pairings" : {
+            "mosie_4": "colors-base:mosie"
+         }, 
+         "harvest_threshhold" : "mosie_4", 
+         "plant_overlay_effect" : "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json" 
+      }, 
+      "stonehearth:growing" : {
+         "growth_period" : "6h",
+         "growth_stages" : [
+            {
+               "model_name" : "mosie_1",
+               "name": "Mosie Seedling", 
+               "description": "Full of potential."
+            },
+            {
+               "model_name" : "mosie_2",
+               "name": "Mosie Sprout", 
+               "description": "Stubby."
+            },
+            {
+               "model_name" : "mosie_3",
+               "name": "Mosie Bud", 
+               "description": "Like a baby snowflake."
+            },
+            {
+               "model_name" : "mosie_4",
+               "name": "Mosie", 
+               "description": "Mysteriously cool."
+            }
+         ]
+      },
+      "stonehearth:material" : {
+         "tags" :  "crop mosie"
+      }
+   }
+}

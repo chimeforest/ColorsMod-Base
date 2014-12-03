@@ -1,0 +1,25 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "Mosie Window Box",
+   "description" : "A planter box full of Mosie flowers, built to be placed below window frames.",
+   "flavor"      : "",
+   "portrait"    : "/colors-base/entities/decoration/window_box_mosie/window_box_mosie.png",
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "uri" : "colors-base:mosie",
+         "count" : 1
+      }      
+  ],
+  "produces": [
+      {
+         "item": "colors-base:mosie:window_box"
+      }
+  ]
+}

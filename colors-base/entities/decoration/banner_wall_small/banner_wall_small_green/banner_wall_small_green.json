@@ -1,11 +1,13 @@
 {
-   "mixins" : "file(banner_wall_small_green_ghost.json)",
+   "type" : "entity",
+   "mixins" : "file(banner_wall_small_ghost_green.json)",
 
    "components": {
       "stonehearth:entity_forms" : {
-         "iconic_form" : "file(banner_wall_small_green_iconic.json)",
-         "ghost_form" : "file(banner_wall_small_green_ghost.json)",
-         "placeable_on_walls" : true
+         "iconic_form" : "file(banner_wall_small_iconic_green.json)",
+         "ghost_form" : "file(banner_wall_small_ghost_green.json)",
+         "placeable_on_walls" : true,
+         "placeable_category" : "Decoration"
       }
    }
 }

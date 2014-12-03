@@ -1,0 +1,26 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "Purple Wooden Throne",
+   "description" : "Cushioned seat, fit for a king!",
+   "flavor"      : "A noble place to put your buttocks if ever there was one!",
+   "portrait"    : "/colors-base/entities/furniture/wood_throne/wood_throne_purple//wood_throne_purple.png",
+   "level_requirement" : 2,
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 2
+      },
+	  {
+         "uri" : "colors-base:cloth_bolt_purple",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors-base:wood_throne_purple"
+      }
+  ]
+}

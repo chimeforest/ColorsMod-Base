@@ -1,0 +1,26 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "red Curtains",
+   "description" : "Dresses up an otherwise ordinary window.",
+   "flavor"      : "Light-blocking technology encourages sleeping-in.",
+   "portrait"    : "/colors-base/entities/decoration/curtains/curtains_red//curtains_red.png",
+   "level_requirement" : 1,
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "uri" : "colors-base:cloth_bolt_red",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors-base:curtains_red"
+      }
+  ]
+}

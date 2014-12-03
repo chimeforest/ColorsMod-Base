@@ -1,0 +1,32 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Blue Thread x3",
+   "description" : "Used to create works of art",
+   "flavor"      : "Sew, sew, sew your cloth...",
+   "portrait"    : "/colors-base/entities/cloth/thread/thread_blue//thread_blue.png",
+   "level_requirement" : 1,
+
+   "ingredients": [
+      {
+         "uri" : "stonehearth:thread",
+         "count" : 3
+      },
+	  {
+         "uri" : "colors-base:dye_blue",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item" : "colors-base:thread_blue"
+      },
+	  {
+         "item" : "colors-base:thread_blue"
+      },
+	  {
+         "item" : "colors-base:thread_blue"
+      }
+  ]
+}

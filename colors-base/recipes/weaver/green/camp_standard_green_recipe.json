@@ -1,0 +1,26 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 5,
+   "recipe_name" : "green Standard",
+   "description" : "Use to mark territory, decoratively.",
+   "flavor"      : "What's mine is mine and your's is also.",
+   "portrait"    : "/colors-base/entities/decoration/camp_standard/camp_standard_green//camp_standard_green.png",
+   "level_requirement" : 2,
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "uri" : "colors-base:cloth_bolt_green",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors-base:camp_standard_green"
+      }
+  ]
+}

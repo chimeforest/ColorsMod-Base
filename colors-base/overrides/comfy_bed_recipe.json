@@ -6,14 +6,15 @@
    "description" : "Eight hours will leave you as refreshed as the day you were born.",
    "flavor"      : "Nobody ever wants to get out. It makes emergency evacuations awkward.",
    "portrait"    : "/colors-base/entities/furniture/comfy_bed/comfy_bed_undyed/comfy_bed_undyed.png",
+   "level_requirement" : 2,
 
    "ingredients": [
       {
-         "material" : "wood resource",
+         "uri" : "stonehearth:furniture:not_much_of_a_bed",
          "count" : 1
       },
       {
-         "material" : "undyed cloth resource",
+         "uri" : "stonehearth:cloth_bolt",
          "count" : 1
       }
   ],

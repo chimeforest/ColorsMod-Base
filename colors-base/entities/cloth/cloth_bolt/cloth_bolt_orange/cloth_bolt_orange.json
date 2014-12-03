@@ -15,7 +15,8 @@
       "unit_info": {
          "name": "Orange Bolt of Cloth",
          "description": "Soft and comforting.",
-         "icon" : "file(cloth_bolt_orange.png)"
+         "icon" : "file(cloth_bolt_orange.png)",
+         "portrait": "file(cloth_bolt_orange.png)"
       },
       "stonehearth:material" : {
          "tags" :  "cloth resource cloth_asset orange"

@@ -1,0 +1,23 @@
+{
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(stone_throne_green.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Green Stone Throne",
+         "description": "An elegant throne, for a more civilized age.",
+         "icon" : "file(stone_throne_green.png)"
+      },
+      "stonehearth:material" : {
+         "tags" : "wood furniture crafted chair green"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 },
+         "region_origin" : { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   }
+}

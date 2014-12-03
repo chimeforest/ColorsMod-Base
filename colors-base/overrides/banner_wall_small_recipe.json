@@ -13,7 +13,7 @@
          "count" : 1
       },
       {
-         "material" : "undyed cloth resource",
+         "uri" : "stonehearth:cloth_bolt",
          "count" : 1
       }
   ],

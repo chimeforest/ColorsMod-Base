@@ -1,11 +1,13 @@
 {
-   "mixins" : "file(throw_rug_purple_ghost.json)",
+   "type" : "entity",
+   "mixins" : "file(throw_rug_ghost_purple.json)",
 
    "components": {
       "stonehearth:entity_forms" : {
-         "iconic_form" : "file(throw_rug_purple_iconic.json)",
-         "ghost_form" : "file(throw_rug_purple_ghost.json)",
-         "placeable_on_ground" : true
+         "iconic_form" : "file(throw_rug_iconic_purple.json)",
+         "ghost_form" : "file(throw_rug_ghost_purple.json)",
+         "placeable_on_ground" : true,
+         "placeable_category" : "Decoration"
       }
    }
 }

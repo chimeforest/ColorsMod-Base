@@ -9,7 +9,7 @@
 
    "ingredients": [
       {
-         "material" : "thread resource",
+         "uri" : "stonehearth:thread",
          "count" : 3
       }
   ],

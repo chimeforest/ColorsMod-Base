@@ -1,10 +1,13 @@
 {
-   "mixins" : "file(comfy_chair_orange_ghost.json)",
+   "type" : "entity",
+   "mixins" : "file(comfy_chair_ghost_orange.json)",
+   
    "components": {
       "stonehearth:entity_forms" : {
-         "iconic_form" : "file(comfy_chair_orange_iconic.json)",
-         "ghost_form" : "file(comfy_chair_orange_ghost.json)",
-         "placeable_on_ground" : true
+         "iconic_form" : "file(comfy_chair_iconic_orange.json)",
+         "ghost_form" : "file(comfy_chair_ghost_orange.json)",
+         "placeable_on_ground" : true,
+         "placeable_category" : "Furniture"
       },
       "region_collision_shape" : {
          "region": [

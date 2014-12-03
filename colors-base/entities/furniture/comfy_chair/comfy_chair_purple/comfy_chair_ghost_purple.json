@@ -1,0 +1,23 @@
+{
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(comfy_chair_purple.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Purple Comfy Chair",
+         "description": "For sitting!",
+         "icon" : "file(comfy_chair_purple.png)"
+      },
+      "stonehearth:material" : {
+         "tags" : "wood furniture crafted chair purple"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 },
+         "region_origin" : { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   }
+}

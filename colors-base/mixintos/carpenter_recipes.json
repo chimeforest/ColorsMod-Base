@@ -1,19 +1,91 @@
 {
 	"craftable_recipes" : {
-		"Colored Furniture" : {
-			"redcomfybed" : {"uri" : "file(/recipes/carpenter/furniture/comfy_bed_red_recipe.json)"},
-			"orqngecomfybed" : {"uri" : "file(/recipes/carpenter/furniture/comfy_bed_orange_recipe.json)"},
-			"yellowcomfybed" : {"uri" : "file(/recipes/carpenter/furniture/comfy_bed_yellow_recipe.json)"},
-			"greencomfybed" : {"uri" : "file(/recipes/carpenter/furniture/comfy_bed_green_recipe.json)"},
-			"bluecomfybed" : {"uri" : "file(/recipes/carpenter/furniture/comfy_bed_blue_recipe.json)"},
-			"purplecomfybed" : {"uri" : "file(/recipes/carpenter/furniture/comfy_bed_purple_recipe.json)"},
-			
-			"redcomfychair" : {"uri" : "file(/recipes/carpenter/furniture/comfy_chair_red_recipe.json)"},
-			"orangecomfychair" : {"uri" : "file(/recipes/carpenter/furniture/comfy_chair_orange_recipe.json)"},
-			"yellowcomfychair" : {"uri" : "file(/recipes/carpenter/furniture/comfy_chair_yellow_recipe.json)"},
-			"greencomfychair" : {"uri" : "file(/recipes/carpenter/furniture/comfy_chair_green_recipe.json)"},
-			"bluecomfychair" : {"uri" : "file(/recipes/carpenter/furniture/comfy_chair_blue_recipe.json)"},
-			"purplecomfychair" : {"uri" : "file(/recipes/carpenter/furniture/comfy_chair_purple_recipe.json)"}
+	"furniture" : {
+		"recipes": {
+			"dining_table_cloth_undyed" : {"uri" : "file(/recipes/carpenter/dining_table_cloth_undyed_recipe.json)"},
+			"dining_table_cloth_corner_undyed" : {"uri" : "file(/recipes/carpenter/dining_table_cloth_corner_undyed_recipe.json)"},
+			"dining_table_cloth_end_undyed" : {"uri" : "file(/recipes/carpenter/dining_table_cloth_end_undyed_recipe.json)"},
+			"stone_throne_undyed" : {"uri" : "file(/recipes/carpenter/stone_throne_undyed_recipe.json)"},
+			"wood_throne_undyed" : {"uri" : "file(/recipes/carpenter/wood_throne_undyed_recipe.json)"}
+			}
+		},
+	"red" : {
+		"ordinal" : 5,
+		"name" : "Red",
+		"recipes": {
+			"comfy_bed_red" : {"uri" : "file(/recipes/carpenter/red/comfy_bed_red_recipe.json)"},
+			"comfy_chair_red" : {"uri" : "file(/recipes/carpenter/red/comfy_chair_red_recipe.json)"},
+			"dining_table_cloth_red" : {"uri" : "file(/recipes/carpenter/red/dining_table_cloth_red_recipe.json)"},
+			"dining_table_cloth_corner_red" : {"uri" : "file(/recipes/carpenter/red/dining_table_cloth_corner_red_recipe.json)"},
+			"dining_table_cloth_end_red" : {"uri" : "file(/recipes/carpenter/red/dining_table_cloth_end_red_recipe.json)"},
+			"stone_throne_red" : {"uri" : "file(/recipes/carpenter/red/stone_throne_red_recipe.json)"},
+			"wood_throne_red" : {"uri" : "file(/recipes/carpenter/red/wood_throne_red_recipe.json)"}
+			}
+		},
+	"orange" : {
+		"ordinal" : 6,
+		"name" : "Orange",
+		"recipes": {
+			"comfy_bed_orange" : {"uri" : "file(/recipes/carpenter/orange/comfy_bed_orange_recipe.json)"},
+			"comfy_chair_orange" : {"uri" : "file(/recipes/carpenter/orange/comfy_chair_orange_recipe.json)"},
+			"dining_table_cloth_orange" : {"uri" : "file(/recipes/carpenter/orange/dining_table_cloth_orange_recipe.json)"},
+			"dining_table_cloth_corner_orange" : {"uri" : "file(/recipes/carpenter/orange/dining_table_cloth_corner_orange_recipe.json)"},
+			"dining_table_cloth_end_orange" : {"uri" : "file(/recipes/carpenter/orange/dining_table_cloth_end_orange_recipe.json)"},
+			"stone_throne_orange" : {"uri" : "file(/recipes/carpenter/orange/stone_throne_orange_recipe.json)"},
+			"wood_throne_orange" : {"uri" : "file(/recipes/carpenter/orange/wood_throne_orange_recipe.json)"}
+			}
+		},
+	"yellow" : {
+		"ordinal" : 7,
+		"name" : "Yellow",
+		"recipes": {
+			"comfy_bed_yellow" : {"uri" : "file(/recipes/carpenter/yellow/comfy_bed_yellow_recipe.json)"},
+			"comfy_chair_yellow" : {"uri" : "file(/recipes/carpenter/yellow/comfy_chair_yellow_recipe.json)"},
+			"dining_table_cloth_yellow" : {"uri" : "file(/recipes/carpenter/yellow/dining_table_cloth_yellow_recipe.json)"},
+			"dining_table_cloth_corner_yellow" : {"uri" : "file(/recipes/carpenter/yellow/dining_table_cloth_corner_yellow_recipe.json)"},
+			"dining_table_cloth_end_yellow" : {"uri" : "file(/recipes/carpenter/yellow/dining_table_cloth_end_yellow_recipe.json)"},
+			"stone_throne_yellow" : {"uri" : "file(/recipes/carpenter/yellow/stone_throne_yellow_recipe.json)"},
+			"wood_throne_yellow" : {"uri" : "file(/recipes/carpenter/yellow/wood_throne_yellow_recipe.json)"}
+			}
+		},
+	"green" : {
+		"ordinal" : 8,
+		"name" : "Green",
+		"recipes": {
+			"comfy_bed_green" : {"uri" : "file(/recipes/carpenter/green/comfy_bed_green_recipe.json)"},
+			"comfy_chair_green" : {"uri" : "file(/recipes/carpenter/green/comfy_chair_green_recipe.json)"},
+			"dining_table_cloth_green" : {"uri" : "file(/recipes/carpenter/green/dining_table_cloth_green_recipe.json)"},
+			"dining_table_cloth_corner_green" : {"uri" : "file(/recipes/carpenter/green/dining_table_cloth_corner_green_recipe.json)"},
+			"dining_table_cloth_end_green" : {"uri" : "file(/recipes/carpenter/green/dining_table_cloth_end_green_recipe.json)"},
+			"stone_throne_green" : {"uri" : "file(/recipes/carpenter/green/stone_throne_green_recipe.json)"},
+			"wood_throne_green" : {"uri" : "file(/recipes/carpenter/green/wood_throne_green_recipe.json)"}
+			}
+		},
+	"blue" : {
+		"ordinal" : 9,
+		"name" : "Blue",
+		"recipes": {
+			"comfy_bed_blue" : {"uri" : "file(/recipes/carpenter/blue/comfy_bed_blue_recipe.json)"},
+			"comfy_chair_blue" : {"uri" : "file(/recipes/carpenter/blue/comfy_chair_blue_recipe.json)"},
+			"dining_table_cloth_blue" : {"uri" : "file(/recipes/carpenter/blue/dining_table_cloth_blue_recipe.json)"},
+			"dining_table_cloth_corner_blue" : {"uri" : "file(/recipes/carpenter/blue/dining_table_cloth_corner_blue_recipe.json)"},
+			"dining_table_cloth_end_blue" : {"uri" : "file(/recipes/carpenter/blue/dining_table_cloth_end_blue_recipe.json)"},
+			"stone_throne_blue" : {"uri" : "file(/recipes/carpenter/blue/stone_throne_blue_recipe.json)"},
+			"wood_throne_blue" : {"uri" : "file(/recipes/carpenter/blue/wood_throne_blue_recipe.json)"}
+			}
+		},
+	"purple" : {
+		"ordinal" : 10,
+		"name" : "Purple",
+		"recipes": {
+			"comfy_bed_purple" : {"uri" : "file(/recipes/carpenter/purple/comfy_bed_purple_recipe.json)"},
+			"comfy_chair_purple" : {"uri" : "file(/recipes/carpenter/purple/comfy_chair_purple_recipe.json)"},
+			"dining_table_cloth_purple" : {"uri" : "file(/recipes/carpenter/purple/dining_table_cloth_purple_recipe.json)"},
+			"dining_table_cloth_corner_purple" : {"uri" : "file(/recipes/carpenter/purple/dining_table_cloth_corner_purple_recipe.json)"},
+			"dining_table_cloth_end_purple" : {"uri" : "file(/recipes/carpenter/purple/dining_table_cloth_end_purple_recipe.json)"},
+			"stone_throne_purple" : {"uri" : "file(/recipes/carpenter/purple/stone_throne_purple_recipe.json)"},
+			"wood_throne_purple" : {"uri" : "file(/recipes/carpenter/purple/wood_throne_purple_recipe.json)"}
+			}
 		}
 	}
 }

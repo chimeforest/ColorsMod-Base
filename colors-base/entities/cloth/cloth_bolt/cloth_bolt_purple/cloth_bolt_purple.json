@@ -15,7 +15,8 @@
       "unit_info": {
          "name": "Purple Bolt of Cloth",
          "description": "Soft and comforting.",
-         "icon" : "file(cloth_bolt_purple.png)"
+         "icon" : "file(cloth_bolt_purple.png)",
+         "portrait": "file(cloth_bolt_purple.png)"
       },
       "stonehearth:material" : {
          "tags" :  "cloth resource cloth_asset purple"

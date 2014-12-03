@@ -1,0 +1,12 @@
+{
+	"craftable_recipes" : {
+	"signage_decoration" : {
+		"recipes": {
+			"window_box_thrilip" : {"uri" : "file(/recipes/carpenter/window_box_thrilip_recipe.json)"},
+			"window_box_mosie" : {"uri" : "file(/recipes/carpenter/window_box_mosie_recipe.json)"},
+			"window_box_numnum" : {"uri" : "file(/recipes/carpenter/window_box_numnum_recipe.json)"},
+			"window_box_jills_pulpet" : {"uri" : "file(/recipes/carpenter/window_box_jills_pulpet_recipe.json)"}
+			}
+		}
+	}
+}

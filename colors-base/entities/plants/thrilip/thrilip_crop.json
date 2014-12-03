@@ -1,0 +1,78 @@
+{
+   "type": "entity", 
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(thrilip.qb)"
+            ]
+         },
+         "thrilip_1": {
+            "models": [
+               "file(thrilip_1.qb)"
+            ]
+         },
+         "thrilip_2": {
+            "models": [
+               "file(thrilip_2.qb)"
+            ]
+         },
+         "thrilip_3": {
+            "models": [
+               "file(thrilip_3.qb)"
+            ]
+         },
+         "thrilip_4": {
+            "models": [
+               "file(thrilip.qb)"
+            ]
+         }
+      },
+      "render_info" : {
+         "scale" : 0.13
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "unit_info": {
+         "name": "Thrilip Flower", 
+         "description": "It's chill to the touch.", 
+         "icon" : "file(thrilip.png)"
+      },
+      "stonehearth:crop" : {
+         "resource_pairings" : {
+            "thrilip_4": "colors-base:thrilip"
+         }, 
+         "harvest_threshhold" : "thrilip_4", 
+         "plant_overlay_effect" : "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json" 
+      }, 
+      "stonehearth:growing" : {
+         "growth_period" : "6h",
+         "growth_stages" : [
+            {
+               "model_name" : "thrilip_1",
+               "name": "Thrilip Seedling", 
+               "description": "Full of potential."
+            },
+            {
+               "model_name" : "thrilip_2",
+               "name": "Thrilip Sprout", 
+               "description": "Stubby."
+            },
+            {
+               "model_name" : "thrilip_3",
+               "name": "Thrilip Bud", 
+               "description": "Like a baby snowflake."
+            },
+            {
+               "model_name" : "thrilip_4",
+               "name": "Thrilip", 
+               "description": "Mysteriously cool."
+            }
+         ]
+      },
+      "stonehearth:material" : {
+         "tags" :  "crop thrilip"
+      }
+   }
+}

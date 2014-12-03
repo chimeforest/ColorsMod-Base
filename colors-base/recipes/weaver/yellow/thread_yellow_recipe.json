@@ -1,0 +1,32 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Yellow Thread x3",
+   "description" : "Used to create works of art",
+   "flavor"      : "Sew, sew, sew your cloth...",
+   "portrait"    : "/colors-base/entities/cloth/thread/thread_yellow//thread_yellow.png",
+   "level_requirement" : 1,
+
+   "ingredients": [
+      {
+         "uri" : "stonehearth:thread",
+         "count" : 3
+      },
+	  {
+         "uri" : "colors-base:dye_yellow",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item" : "colors-base:thread_yellow"
+      },
+	  {
+         "item" : "colors-base:thread_yellow"
+      },
+	  {
+         "item" : "colors-base:thread_yellow"
+      }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Blue Dye",
+   "description" : "A Mysterious Blue Liquid",
+   "flavor"      : "Don't stick your hand in!",
+   "portrait"    : "/colors-base/entities/cloth/dye/dye_blue/dye_blue.png",
+   "level_requirement" : 1,
+   
+   "ingredients": [
+      {
+         "material" : "blue colorsource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors-base:dye_blue"
+      }
+  ]
+}

@@ -6,6 +6,7 @@
    "description" : "Show your town pride with this decorative banner.",
    "flavor"      : "Also a sign of affluence.",
    "portrait"    : "/colors-base/entities/decoration/banner_wall_big/banner_wall_big_undyed/banner_wall_big_undyed.png",
+   "level_requirement" : 2,
 
    "ingredients": [
       {
@@ -13,7 +14,7 @@
          "count" : 1
       },
       {
-         "material" : "undyed cloth resource",
+         "uri" : "stonehearth:cloth_bolt",
          "count" : 1
       }
   ],

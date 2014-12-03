@@ -1,11 +1,13 @@
 {
-   "mixins": "file(comfy_bed_orange_ghost.json)",
+   "type" : "entity",
+   "mixins": "file(comfy_bed_ghost_orange.json)",
+   
    "components": {
       "stonehearth:entity_forms" : {
-         "iconic_form" : "file(comfy_bed_orange_iconic.json)",
-         "ghost_form" : "file(comfy_bed_orange_ghost.json)",
+         "iconic_form" : "file(comfy_bed_iconic_orange.json)",
+         "ghost_form" : "file(comfy_bed_ghost_orange.json)",
          "placeable_on_ground" : true,
-         "placeable_category" : "beds and stuff"
+         "placeable_category" : "Furniture"
       },
       "region_collision_shape": {
          "region": [

@@ -1,0 +1,19 @@
+{
+   "type" : "entity",
+   "mixins" : "file(thrilip_ghost.json)",
+
+   "components" : {
+      "stonehearth:entity_forms" : {
+         "iconic_form" : "file(thrilip_iconic.json)",
+         "ghost_form" : "file(thrilip_ghost.json)",
+         "placeable_on_ground" : true,
+         "placeable_category" : "Plants"
+      },      
+      "stonehearth:material" : {
+         "tags" :  "plant yellow colorsource thrilip"
+      },     
+      "mob" : {
+         "model_origin" : { "x": 0, "y": 0, "z": 0 }
+      }
+	}
+}

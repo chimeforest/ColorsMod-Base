@@ -12,7 +12,8 @@
       "unit_info": {
          "name": "Spool of Purple Thread",
          "description": "Nobody would ever think this started with a sheep. Or a plant.",
-         "icon" : "file(thread_purple.png)"
+         "icon" : "file(thread_purple.png)",
+         "portrait": "file(thread_purple.png)"
 
       },
       "stonehearth:material" : {

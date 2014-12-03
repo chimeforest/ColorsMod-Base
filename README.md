@@ -1,4 +1,4 @@
-ColorsMod-Base v1.0.2 for Alpha5 v150
+ColorsMod-Base v1.1.0 for Alpha6 v166
 ===============
 A Stonehearth Mod which includes a little more color.
 
@@ -21,13 +21,17 @@ Modifies:
 	Tapestry Recipe
 
 TODO:
-	Flower Crops
 	Rotate window_box_blue_iconic 180
 
 	Integrate Extra Decor
 		Ornate Rug
 		Candle stands (wooden w/stone)
 		Pillars (loog, lt.wood dk.wood and stone)?
+
+	Angular banner lg and sm
+	Double standard
+	Flower floor boxes
+	Flower pots
 
 	Add Tapestries
 	Add floor length wall curtians
@@ -39,3 +43,7 @@ TODO:
 	Colored Roof? include grey,dk.grey,black?
 
 	Change mod name to "colors" instead of "colors-base"
+
+	HOlIDAY Winter
+		Wreaths
+		Candles

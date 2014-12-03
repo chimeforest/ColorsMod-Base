@@ -1,0 +1,23 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(thread_undyed.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Spool of Undyed Thread",
+         "description": "Nobody would ever think this started with a sheep. Or a plant.",
+         "icon" : "file(thread_undyed.png)",
+         "portrait": "file(thread_undyed.png)"
+
+      },
+      "stonehearth:material" : {
+         "tags" :  "undyed thread resource cloth_asset"
+      }
+   }
+}

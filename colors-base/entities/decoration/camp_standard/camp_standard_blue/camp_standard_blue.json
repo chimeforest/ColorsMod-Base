@@ -1,10 +1,13 @@
 {
-   "mixins" : "file(camp_standard_blue_ghost.json)",
+   "type" : "entity",
+   "mixins" : "file(camp_standard_ghost_blue.json)",
+   
    "components": {
       "stonehearth:entity_forms" : {
-         "iconic_form" : "file(camp_standard_blue_iconic.json)",
-         "ghost_form" : "file(camp_standard_blue_ghost.json)",
-         "placeable_on_ground" : true
+         "iconic_form" : "file(camp_standard_iconic_blue.json)",
+         "ghost_form" : "file(camp_standard_ghost_blue.json)",
+         "placeable_on_ground" : true,
+         "placeable_category" : "Decoration"
       },
       "destination": {
          "region": [

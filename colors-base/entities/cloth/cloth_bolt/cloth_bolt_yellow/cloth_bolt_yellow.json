@@ -15,7 +15,8 @@
       "unit_info": {
          "name": "Yellow Bolt of Cloth",
          "description": "Soft and comforting.",
-         "icon" : "file(cloth_bolt_yellow.png)"
+         "icon" : "file(cloth_bolt_yellow.png)",
+         "portrait": "file(cloth_bolt_yellow.png)"
       },
       "stonehearth:material" : {
          "tags" :  "cloth resource cloth_asset yellow"

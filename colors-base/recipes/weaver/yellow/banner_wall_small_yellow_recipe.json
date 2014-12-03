@@ -1,0 +1,26 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "yellow Small Wall Banner",
+   "description" : "Show your town pride with this decorative banner.",
+   "flavor"      : "Also a sign of affluence.",
+   "portrait"    : "/colors-base/entities/decoration/banner_wall_small/banner_wall_small_yellow//banner_wall_small_yellow.png",
+   "level_requirement" : 1,
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "uri" : "colors-base:cloth_bolt_yellow",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors-base:banner_wall_small_yellow"
+      }
+  ]
+}

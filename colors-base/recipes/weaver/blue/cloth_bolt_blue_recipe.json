@@ -1,0 +1,26 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Blue Cloth Bolt",
+   "description" : "A Bolt of Blue Cloth",
+   "flavor"      : "To make thicker by the width of one string: add string. Repeat 1,000,000 times.",
+   "portrait"    : "/colors-base/entities/cloth/cloth_bolt/cloth_bolt_blue/cloth_bolt_blue.png",
+   "level_requirement" : 1,
+
+   "ingredients": [
+      {
+         "uri" : "stonehearth:cloth_bolt",
+         "count" : 1
+      },
+	  {
+         "uri" : "colors-base:dye_blue",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors-base:cloth_bolt_blue"
+      }
+  ]
+}

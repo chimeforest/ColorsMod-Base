@@ -1,11 +1,13 @@
 {
-   "mixins" : "file(curtains_undyed_ghost.json)",
+   "type" : "entity",
+   "mixins" : "file(curtains_ghost_undyed.json)",
 
    "components": {
       "stonehearth:entity_forms" : {
-         "iconic_form" : "file(curtains_undyed_iconic.json)",
-         "ghost_form" : "file(curtains_undyed_ghost.json)",
-         "placeable_on_walls" : true
+         "iconic_form" : "file(curtains_iconic_undyed.json)",
+         "ghost_form" : "file(curtains_ghost_undyed.json)",
+         "placeable_on_walls" : true,
+         "placeable_category" : "Decoration"
       }
    }
 }

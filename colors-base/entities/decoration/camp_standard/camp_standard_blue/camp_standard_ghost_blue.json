@@ -1,0 +1,25 @@
+{
+   "components": {
+		"model_variants": {
+			"default": {
+				"models": [
+					"file(camp_standard_blue.qb)"
+				]
+			}
+		},
+		"mob" : {
+			"model_origin" : { "x": -0.05, "y": 0, "z": 0 },
+			"region_origin" : { "x": 0.5, "y": 0, "z": 0.5 }
+		},
+		"unit_info": {
+			"name": "Blue Standard",
+			"description": "Use to mark territory, decoratively.",
+			"icon" : "file(camp_standard_blue.png)"
+
+		},
+
+		"stonehearth:material" : {
+			"tags" : "wood cloth decoration blue"
+		}
+   }
+}
