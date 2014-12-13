@@ -3,6 +3,7 @@
 		"name" : "colors-base",
 		"version" : 1
 	},
+	"server_init_script" : "file(server_init)",
 	"aliases"  : {
 		"banner_wall_big_red" : "file(entities/decoration/banner_wall_big/banner_wall_big_red/banner_wall_big_red.json)",
 		"banner_wall_big_orange" : "file(entities/decoration/banner_wall_big/banner_wall_big_orange/banner_wall_big_orange.json)",
@@ -127,7 +128,10 @@
 		"jills_pulpet": "file(entities/plants/jills_pulpet)",
 		"jills_pulpet:wild": "file(entities/plants/jills_pulpet/jills_pulpet_wild.json)",
 		"jills_pulpet:window_box": "file(entities/decoration/window_box_jills_pulpet)",
-		"jills_pulpet:crop": "file(entities/plants/jills_pulpet/jills_pulpet_crop.json)"
+		"jills_pulpet:crop": "file(entities/plants/jills_pulpet/jills_pulpet_crop.json)",
+
+		"proxy_replacment_handler:table": "file(table_proxy_replacement_handler.luac)"
+		"actions:new_replace_proxy_with_item": "file(overrides/ai/actions/replace_proxy_with_item_action.luac)"
 	},
 	"mixintos" : {
 		"/stonehearth/jobs/weaver/recipes/recipes.json": ["file(mixintos/weaver_recipes.json)"],
@@ -156,6 +160,17 @@
 		"stonehearth/jobs/weaver/recipes/throw_rug_recipe.json": "file(overrides/throw_rug_recipe.json)",
 		
 		"stonehearth/jobs/carpenter/recipes/comfy_bed_recipe.json": "file(overrides/comfy_bed_recipe.json)",
-		"stonehearth/jobs/carpenter/recipes/comfy_chair_recipe.json": "file(overrides/comfy_chair_recipe.json)"
-	}
+		"stonehearth/jobs/carpenter/recipes/comfy_chair_recipe.json": "file(overrides/comfy_chair_recipe.json)",
+		"stonehearth/ai/actions/replace_proxy_with_item_action.luac": "file(overrides/ai/actions/replace_proxy_with_item_action.luac)"
+	},
+	"functions" : {
+		"proxy_replace_handler_add_handler": {
+         "controller": "file(call_handlers/proxy_replacement_call_handler.luac)",
+         "endpoint": "server"
+      },
+      "proxy_replace_handler_call": {
+         "controller": "file(call_handlers/proxy_replacement_call_handler.luac)",
+         "endpoint": "server"
+      }
+  }
 }
