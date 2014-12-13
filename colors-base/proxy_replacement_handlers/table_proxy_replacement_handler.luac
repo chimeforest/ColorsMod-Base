@@ -1,0 +1,108 @@
+local handler = class()
+local log = radiant.log.create_logger('table_proxy_replacement')
+
+local red_table = 'dining_table_cloth_red'
+local organe_table = 'dining_table_cloth_orange'
+local yellow_table = 'dining_table_cloth_yellow'
+local green_table = 'dining_table_cloth_green' 
+local blue_table = 'dining_table_cloth_blue'
+local purple_table = 'dining_table_cloth_purple'
+local undyed_table = 'dining_table_cloth_undyed'
+
+local Point2=_radiant.csg.Point2
+local Point3=_radiant.csg.Point3
+local Rect2=_radiant.csg.Rect2
+local Cube3=_radiant.csg.Cube3
+local rng=_radiant.csg.get_default_rng()
+local function getXZCubeAroundPoint(location,radius)
+	local cube=Cube3(Point3(location.x-radius,location.y,location.z-radius),Point3(location.x+radius+1,location.y+1,location.z+radius+1))
+	return cube
+end
+
+local function getColor(entity)
+	local material = entity:get_component('stonehearth:material')
+		if material ~= nil then
+
+			if material:has_tag('red') then
+				return 'red'
+	
+			elseif material:has_tag('organe') then
+				return 'organe'
+
+			elseif material:has_tag('yellow') then
+				return 'yellow'
+
+			elseif material:has_tag('green') then
+				return 'green'
+
+			elseif material:has_tag('blue') then
+				return'blue'
+
+			elseif material:has_tag('purple') then
+				return 'purple'
+
+			elseif material:has_tag('undyed') then
+				return 'undyed'
+			else
+				return '';
+			end
+		else
+			return '';
+		end
+end
+
+-- maybe better off adding a tag to entites that should run through the hook, idk
+local function isTable(entity)
+
+	local unitInfo = entity:get_component('unit_info');
+
+	if unitInfo ~= nil then
+
+		local name = unitInfo:get_display_name()
+
+		if string.find(name, "Dining Table Cloth") then
+			return true;
+		end
+	end
+
+	return false
+end
+
+
+-- callback for proxy replacment, must implement entity,location args
+function handler:call(entity, location)
+	--_radiant.call('stonehearth:set_player_game_speed', 0)
+	-- radiant.entities.create_entity('stonehearth:camp_standard')
+
+	if isTable(entity) then
+
+		local count = 0;
+		local others = {};
+
+		local color = getColor(entity);
+		local volume =  getXZCubeAroundPoint(location,1)
+    	local entities=radiant.terrain.get_entities_in_cube(volume)
+
+   		for id,possibetable in pairs(entities)do
+   			if isTable(possibetable) then
+   				if getColor(possibetable) == color then
+   					others[count] = possibetable
+   					count = count + 1
+   				end
+   			end
+		end
+
+		radiant.terrain.place_entity(entity,location,
+			{
+				force_iconic=false
+			})
+
+		-- return true cause we handled the event through the callback
+		return true
+	end
+
+	-- return false unhandled event
+    return false
+end
+
+return handler
