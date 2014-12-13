@@ -1,0 +1,21 @@
+-- couldn't get this to work
+-- should be able to call _radiant.call('colors-base:proxy_replace_handler_call', entity)
+-- just get nil
+-- could be the same as your crafting icons not showing up
+
+local proxyReplaceHandler = class()
+proxyReplaceHandler.handlers = {};
+proxyReplaceHandler.count = 1;
+
+function proxyReplaceHandler:proxy_replace_handler_add_handler(session, response, handler)
+	proxyReplaceHandler.handlers[proxyReplaceHandler.count] = handler;
+	proxyReplaceHandler.count += 1
+	return{};
+end
+
+function proxyReplaceHandler:proxy_replace_handler_call(session, response, entity)
+	-- call all handlers
+     return{};
+end
+
+return proxyReplaceHandler;
