@@ -9,11 +9,11 @@
 
    "ingredients": [
       {
-         "material" : "wood resource",
+        "uri" : "stonehearth:refined:cloth_bolt",
          "count" : 1
       },
       {
-         "uri" : "stonehearth:cloth_bolt",
+         "material" : "wood resource",
          "count" : 1
       }
   ],

@@ -10,7 +10,7 @@
 
    "ingredients": [
       {
-         "uri" : "stonehearth:cloth_bolt",
+         "uri" : "stonehearth:refined:cloth_bolt",
          "count" : 1
       },
 	  {

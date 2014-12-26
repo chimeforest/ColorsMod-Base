@@ -9,7 +9,7 @@
 
    "ingredients": [
       {
-         "uri" : "stonehearth:thread",
+         "uri" : "stonehearth:refined:thread",
          "count" : 3
       }
   ],
