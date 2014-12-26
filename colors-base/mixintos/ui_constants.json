@@ -128,7 +128,7 @@
             },
             "yellow colorsource": {
                 "name": "Yellow Color Source",
-                "icon": "/colors-base/plants/thrilip/thrilip.png",
+                "icon": "/colors-base/entities/plants/thrilip/thrilip.png",
                 "stacks": 1
             }
         }
