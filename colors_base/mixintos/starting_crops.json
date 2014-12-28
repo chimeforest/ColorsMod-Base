@@ -1,0 +1,56 @@
+{
+    "stonehearth:kingdoms:ascendancy": [
+        {
+            "crop_type": "colors_base:thrilip:crop",
+            "quantity": 5
+        },
+		{
+            "crop_type": "colors_base:numnum:crop",
+            "quantity": 5
+        },
+		{
+            "crop_type": "colors_base:mosie:crop",
+            "quantity": 5
+        },
+		{
+            "crop_type": "colors_base:jills_pulpet:crop",
+            "quantity": 5
+        }
+    ],
+    "stonehearth:kingdoms:rayyas_children": [
+        {
+            "crop_type": "colors_base:thrilip:crop",
+            "quantity": 5
+        },
+		{
+            "crop_type": "colors_base:numnum:crop",
+            "quantity": 5
+        },
+		{
+            "crop_type": "colors_base:mosie:crop",
+            "quantity": 5
+        },
+		{
+            "crop_type": "colors_base:jills_pulpet:crop",
+            "quantity": 5
+        }
+    ],
+    "stonehearth:kingdoms:northern_alliance": [
+        {
+            "crop_type": "colors_base:thrilip:crop",
+            "quantity": 5
+        },
+		{
+            "crop_type": "colors_base:numnum:crop",
+            "quantity": 5
+        },
+		{
+            "crop_type": "colors_base:mosie:crop",
+            "quantity": 5
+        },
+		{
+            "crop_type": "colors_base:jills_pulpet:crop",
+            "quantity": 5
+        }
+    ]
+}

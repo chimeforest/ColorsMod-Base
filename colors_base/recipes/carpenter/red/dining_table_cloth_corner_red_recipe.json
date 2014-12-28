@@ -1,0 +1,26 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "Red Dining Table Corner",
+   "description" : "The most elegant of tables.",
+   "flavor"      : "Better make sure it matches the curtains!",
+   "portrait"    : "/colors_base/entities/furniture/dining_table_cloth_corner/dining_table_cloth_corner_red//dining_table_cloth_corner_red.png",
+   "level_requirement" : 2,
+
+   "ingredients": [
+      {
+         "uri" : "stonehearth:furniture:dining_table",
+         "count" : 1
+      },
+	  {
+         "uri" : "colors_base:cloth_bolt_red",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors_base:dining_table_cloth_corner_red"
+      }
+  ]
+}

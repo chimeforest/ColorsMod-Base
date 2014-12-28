@@ -1,0 +1,136 @@
+{
+    "formatting": {
+        "resources": {
+            "cloth bolt blue resource": {
+                "name": "Blue Bolt of Cloth",
+                "icon": "/colors_base/entities/cloth/cloth_bolt/cloth_bolt_blue/cloth_bolt_blue.png",
+                "stacks": 1
+            },
+            "cloth bolt green resource": {
+                "name": "Green Bolt of Cloth",
+                "icon": "/colors_base/entities/cloth/cloth_bolt/cloth_bolt_green/cloth_bolt_green.png",
+                "stacks": 1
+            },
+            "cloth bolt orange resource": {
+                "name": "Orange Bolt of Cloth",
+                "icon": "/colors_base/entities/cloth/cloth_bolt/cloth_bolt_orange/cloth_bolt_orange.png",
+                "stacks": 1
+            },
+            "cloth bolt purple resource": {
+                "name": "Purple Bolt of Cloth",
+                "icon": "/colors_base/entities/cloth/cloth_bolt/cloth_bolt_purple/cloth_bolt_purple.png",
+                "stacks": 1
+            },
+            "cloth bolt red resource": {
+                "name": "Red Bolt of Cloth",
+                "icon": "/colors_base/entities/cloth/cloth_bolt/cloth_bolt_red/cloth_bolt_red.png",
+                "stacks": 1
+            },
+            "cloth bolt undyed resource": {
+                "name": "Undyed Bolt of Cloth",
+                "icon": "/colors_base/entities/cloth/cloth_bolt_undyed/cloth_bolt_undyed.png",
+                "stacks": 1
+            },
+            "cloth bolt yellow resource": {
+                "name": "Purple Bolt of Cloth",
+                "icon": "/colors_base/entities/cloth/cloth_bolt/cloth_bolt_purple/cloth_bolt_purple.png",
+                "stacks": 1
+            },
+            "blue resource": {
+                "name": "Blue Dye",
+                "icon": "/colors_base/entities/cloth/dye/dye_blue/dye_blue.png",
+                "stacks": 1
+            },
+            "dye green resource": {
+                "name": "Green Dye",
+                "icon": "/colors_base/entities/cloth/dye/dye_green/dye_green.png",
+                "stacks": 1
+            },
+            "dye orange resource": {
+                "name": "Orange Dye",
+                "icon": "/colors_base/entities/cloth/dye/dye_orange/dye_orange.png",
+                "stacks": 1
+            },
+            "dye purple resource": {
+                "name": "Purple Dye",
+                "icon": "/colors_base/entities/cloth/dye/dye_purple/dye_purple.png",
+                "stacks": 1
+            },
+            "dye red resource": {
+                "name": "Red Dye",
+                "icon": "/colors_base/entities/cloth/dye/dye_red/dye_red.png",
+                "stacks": 1
+            },
+            "dye yellow resource": {
+                "name": "Yellow Dye",
+                "icon": "/colors_base/entities/cloth/dye/dye_yellow/dye_yellow.png",
+                "stacks": 1
+            },
+            "thread spool blue resource": {
+                "name": "Spool of Blue Thread",
+                "icon": "/colors_base/entities/cloth/thread/thread_blue/thread_blue.png",
+                "stacks": 1
+            },
+            "thread spool green resource": {
+                "name": "Spool of Green Thread",
+                "icon": "/colors_base/entities/cloth/thread/thread_green/thread_green.png",
+                "stacks": 1
+            },
+            "thread spool orange resource": {
+                "name": "Spool of Orange Thread",
+                "icon": "/colors_base/entities/cloth/thread/thread_orange/thread_orange.png",
+                "stacks": 1
+            },
+            "thread spool purple resource": {
+                "name": "Spool of Purple Thread",
+                "icon": "/colors_base/entities/cloth/thread/thread_purple/thread_purple.png",
+                "stacks": 1
+            },
+            "thread spool red resource": {
+                "name": "Spool of Red Thread",
+                "icon": "/colors_base/entities/cloth/thread/thread_red/thread_red.png",
+                "stacks": 1
+            },
+            "thread spool undyed resource": {
+                "name": "Spool of Undyed Thread",
+                "icon": "/colors_base/entities/cloth/thread/thread_undyed/thread_undyed.png",
+                "stacks": 1
+            },
+            "thread spool yellow resource": {
+                "name": "Spool of Yellow Thread",
+                "icon": "/colors_base/entities/cloth/thread/thread_yellow/thread_yellow.png",
+                "stacks": 1
+            },
+            "blue colorsource": {
+                "name": "Blue Color Source",
+                "icon": "/stonehearth/entities/decoration/frostsnap/frostsnap.png",
+                "stacks": 1
+            },
+            "green colorsource": {
+                "name": "Green Color Source",
+                "icon": "/colors_base/entities/plants/jills_pulpet/jills_pulpet.png",
+                "stacks": 1
+            },
+            "orange colorsource": {
+                "name": "Orange Color Source",
+                "icon": "/stonehearth/entities/food/pumpkin/pumpkin_basket/pumpkin_basket.png",
+                "stacks": 1
+            },
+            "purple colorsource": {
+                "name": "Purple Color Source",
+                "icon": "/colors_base/entities/plants/numnum/numnum.png",
+                "stacks": 1
+            },
+            "red colorsource": {
+                "name": "Red Color Source",
+                "icon": "/stonehearth/entities/decoration/brightbell/brightbell.png",
+                "stacks": 1
+            },
+            "yellow colorsource": {
+                "name": "Yellow Color Source",
+                "icon": "/colors_base/entities/plants/thrilip/thrilip.png",
+                "stacks": 1
+            }
+        }
+    }
+}

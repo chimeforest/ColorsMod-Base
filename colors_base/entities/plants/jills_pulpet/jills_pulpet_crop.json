@@ -1,0 +1,78 @@
+{
+   "type": "entity", 
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(jills_pulpet.qb)"
+            ]
+         },
+         "jills_pulpet_1": {
+            "models": [
+               "file(jills_pulpet_1.qb)"
+            ]
+         },
+         "jills_pulpet_2": {
+            "models": [
+               "file(jills_pulpet_2.qb)"
+            ]
+         },
+         "jills_pulpet_3": {
+            "models": [
+               "file(jills_pulpet_3.qb)"
+            ]
+         },
+         "jills_pulpet_4": {
+            "models": [
+               "file(jills_pulpet.qb)"
+            ]
+         }
+      },
+      "render_info" : {
+         "scale" : 0.13
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "unit_info": {
+         "name": "Jill's Pulpet Flower", 
+         "description": "It's chill to the touch.", 
+         "icon" : "file(jills_pulpet.png)"
+      },
+      "stonehearth:crop" : {
+         "resource_pairings" : {
+            "jills_pulpet_4": "colors_base:jills_pulpet"
+         }, 
+         "harvest_threshhold" : "jills_pulpet_4", 
+         "plant_overlay_effect" : "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json" 
+      }, 
+      "stonehearth:growing" : {
+         "growth_period" : "6h",
+         "growth_stages" : [
+            {
+               "model_name" : "jills_pulpet_1",
+               "name": "Jill's Pulpet Seedling", 
+               "description": "Full of potential."
+            },
+            {
+               "model_name" : "jills_pulpet_2",
+               "name": "Jill's Pulpet Sprout", 
+               "description": "Stubby."
+            },
+            {
+               "model_name" : "jills_pulpet_3",
+               "name": "Jill's Pulpet Bud", 
+               "description": "Like a baby snowflake."
+            },
+            {
+               "model_name" : "jills_pulpet_4",
+               "name": "Jill's Pulpet", 
+               "description": "Mysteriously cool."
+            }
+         ]
+      },
+      "stonehearth:material" : {
+         "tags" :  "crop jills_pulpet"
+      }
+   }
+}

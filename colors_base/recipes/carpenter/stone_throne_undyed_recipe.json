@@ -1,0 +1,26 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 10,
+   "recipe_name" : "Undyed Stone Throne",
+   "description" : "An elegant throne, for a more civilized age.",
+   "flavor"      : "The stone, while firm and solid, is offset by the plush fabric",
+   "portrait"    : "/colors_base/entities/furniture/stone_throne/stone_throne_undyed//stone_throne_undyed.png",
+   "level_requirement" : 3,
+
+   "ingredients": [
+      {
+         "material" : "stone resource",
+         "count" : 3
+      },
+	  {
+         "uri" : "stonehearth:refined:cloth_bolt",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors_base:stone_throne_undyed"
+      }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "Thrilip Window Box",
+   "description" : "A planter box full of Thrilip flowers, built to be placed below window frames.",
+   "flavor"      : "",
+   "portrait"    : "/colors_base/entities/decoration/window_box_thrilip/window_box_thrilip.png",
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "uri" : "colors_base:thrilip",
+         "count" : 1
+      }      
+  ],
+  "produces": [
+      {
+         "item": "colors_base:thrilip:window_box"
+      }
+  ]
+}
