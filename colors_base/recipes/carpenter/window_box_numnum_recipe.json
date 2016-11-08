@@ -1,0 +1,25 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "Numnum Window Box",
+   "description" : "A planter box full of Numnum flowers, built to be placed below window frames.",
+   "flavor"      : "",
+   "portrait"    : "/colors_base/entities/decoration/window_box_numnum/window_box_numnum.png",
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "uri" : "colors_base:numnum",
+         "count" : 1
+      }      
+  ],
+  "produces": [
+      {
+         "item": "colors_base:numnum:window_box"
+      }
+  ]
+}

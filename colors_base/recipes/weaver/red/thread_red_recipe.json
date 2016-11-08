@@ -1,0 +1,32 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Red Thread x3",
+   "description" : "Used to create works of art",
+   "flavor"      : "Sew, sew, sew your cloth...",
+   "portrait"    : "/colors_base/entities/cloth/thread/thread_red//thread_red.png",
+   "level_requirement" : 1,
+
+   "ingredients": [
+      {
+         "uri" : "stonehearth:refined:thread",
+         "count" : 3
+      },
+	  {
+         "uri" : "colors_base:dye_red",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item" : "colors_base:thread_red"
+      },
+	  {
+         "item" : "colors_base:thread_red"
+      },
+	  {
+         "item" : "colors_base:thread_red"
+      }
+  ]
+}

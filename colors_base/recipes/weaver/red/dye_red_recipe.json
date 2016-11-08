@@ -1,0 +1,22 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Red Dye",
+   "description" : "A Mysterious Red Liquid",
+   "flavor"      : "Don't stick your hand in!",
+   "portrait"    : "/colors_base/entities/cloth/dye/dye_red/dye_red.png",
+   "level_requirement" : 1,
+   
+   "ingredients": [
+      {
+         "material" : "red colorsource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors_base:dye_red"
+      }
+  ]
+}

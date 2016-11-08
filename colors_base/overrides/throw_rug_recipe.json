@@ -1,0 +1,21 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "Decorative Throw Rug",
+   "description" : "Brightens up that old dusty floor.",
+   "flavor"      : "Too beautiful to step on.",
+   "portrait"    : "/colors_base/entities/decoration/throw_rug/throw_rug_undyed/throw_rug_undyed.png",
+
+   "ingredients": [
+      {
+         "uri" : "stonehearth:refined:thread",
+         "count" : 3
+      }
+  ],
+  "produces": [
+      {
+         "item" : "colors_base:throw_rug_undyed"
+      }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "blue Curtains",
+   "description" : "Dresses up an otherwise ordinary window.",
+   "flavor"      : "Light-blocking technology encourages sleeping-in.",
+   "portrait"    : "/colors_base/entities/decoration/curtains/curtains_blue//curtains_blue.png",
+   "level_requirement" : 1,
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "uri" : "colors_base:cloth_bolt_blue",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors_base:curtains_blue"
+      }
+  ]
+}

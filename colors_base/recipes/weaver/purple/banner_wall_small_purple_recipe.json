@@ -1,0 +1,26 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "purple Small Wall Banner",
+   "description" : "Show your town pride with this decorative banner.",
+   "flavor"      : "Also a sign of affluence.",
+   "portrait"    : "/colors_base/entities/decoration/banner_wall_small/banner_wall_small_purple//banner_wall_small_purple.png",
+   "level_requirement" : 1,
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "uri" : "colors_base:cloth_bolt_purple",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors_base:banner_wall_small_purple"
+      }
+  ]
+}

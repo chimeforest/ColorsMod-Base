@@ -1,0 +1,32 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Purple Thread x3",
+   "description" : "Used to create works of art",
+   "flavor"      : "Sew, sew, sew your cloth...",
+   "portrait"    : "/colors_base/entities/cloth/thread/thread_purple//thread_purple.png",
+   "level_requirement" : 1,
+
+   "ingredients": [
+      {
+         "uri" : "stonehearth:refined:thread",
+         "count" : 3
+      },
+	  {
+         "uri" : "colors_base:dye_purple",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item" : "colors_base:thread_purple"
+      },
+	  {
+         "item" : "colors_base:thread_purple"
+      },
+	  {
+         "item" : "colors_base:thread_purple"
+      }
+  ]
+}

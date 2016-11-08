@@ -1,0 +1,26 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "Big Wall-Mounted Banner",
+   "description" : "Show your town pride with this decorative banner.",
+   "flavor"      : "Also a sign of affluence.",
+   "portrait"    : "/colors_base/entities/decoration/banner_wall_big/banner_wall_big_undyed/banner_wall_big_undyed.png",
+   "level_requirement" : 2,
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      },
+      {
+         "uri" : "stonehearth:refined:cloth_bolt",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"colors_base:banner_wall_big_undyed"
+      }
+  ]
+}

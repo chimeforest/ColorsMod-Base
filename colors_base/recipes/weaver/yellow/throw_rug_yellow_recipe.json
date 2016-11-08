@@ -1,0 +1,22 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 3,
+   "recipe_name" : "Yellow Throw Rug",
+   "description" : "Brightens up that old dusty floor.",
+   "flavor"      : "Too beautiful to step on.",
+   "portrait"    : "/colors_base/entities/decoration/throw_rug/throw_rug_yellow//throw_rug_yellow.png",
+   "level_requirement" : 1,
+
+   "ingredients": [
+      {
+         "uri" : "colors_base:thread_yellow",
+         "count" : 3
+      }
+  ],
+  "produces": [
+      {
+         "item" : "colors_base:throw_rug_yellow"
+      }
+  ]
+}

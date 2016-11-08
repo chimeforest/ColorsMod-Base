@@ -1,0 +1,10 @@
+{
+   "static" : {
+      "scenarios" : [
+         "colors_base/scenarios/static/terrain/thrilip_field",
+		 "colors_base/scenarios/static/terrain/numnum_field",
+		 "colors_base/scenarios/static/terrain/mosie_field",
+		 "colors_base/scenarios/static/terrain/jills_pulpet_field"
+      ]
+	}
+}
